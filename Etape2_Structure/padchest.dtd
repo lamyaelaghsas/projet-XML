@@ -1,0 +1,46 @@
+<!-- DTD pour la base de donnees PadChest -->
+<!-- Auteur : Votre nom -->
+<!-- Date : 2025 -->
+
+<!-- Element racine : contient une ou plusieurs images -->
+<!ELEMENT padchest_database (image+)>
+
+<!-- Element image : contient toutes les informations d'une image -->
+<!ELEMENT image (study_id, patient, projection, report, labels, localizations, labels_by_sentence)>
+<!ATTLIST image id CDATA #REQUIRED>
+
+<!-- Study ID : identifiant de l'etude -->
+<!ELEMENT study_id (#PCDATA)>
+
+<!-- Patient : informations sur le patient -->
+<!ELEMENT patient (birth_year)>
+<!ATTLIST patient id CDATA #REQUIRED>
+
+<!ELEMENT birth_year (#PCDATA)>
+
+<!-- Projection : type et methode de projection -->
+<!ELEMENT projection (method, pediatric)>
+<!ATTLIST projection type CDATA #REQUIRED>
+
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT pediatric (#PCDATA)>
+
+<!-- Report : rapport medical -->
+<!ELEMENT report (text)>
+<!ATTLIST report id CDATA #REQUIRED>
+<!ATTLIST report method CDATA #REQUIRED>
+
+<!ELEMENT text (#PCDATA)>
+
+<!-- Labels : liste des etiquettes medicales (peut etre vide) -->
+<!ELEMENT labels (label*)>
+<!ELEMENT label (#PCDATA)>
+
+<!-- Localizations : liste des localisations anatomiques (peut etre vide) -->
+<!ELEMENT localizations (localization*)>
+<!ELEMENT localization (#PCDATA)>
+
+<!-- Labels by sentence : structure imbriquee -->
+<!ELEMENT labels_by_sentence (sentence*)>
+<!ELEMENT sentence (item*)>
+<!ELEMENT item (#PCDATA)>

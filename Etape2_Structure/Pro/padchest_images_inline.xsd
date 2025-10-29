@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ============================================================
+  XML Schema (XSD) pour la base de données PadChest
+  Définit la structure valide du fichier XML généré
+  Version : Pour les pros
+  ============================================================
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+  <!-- ========================================== -->
+  <!-- ELEMENT RACINE                             -->
+  <!-- ========================================== -->
+  
+  <xs:element name="padchest_database">
+    <xs:annotation>
+      <xs:documentation>
+        Élément racine contenant toutes les images radiographiques.
+        Doit contenir au moins une image.
+      </xs:documentation>
+    </xs:annotation>
+    
+    <xs:complexType>
+      <xs:sequence>
+        <!-- Une ou plusieurs images -->
+        <xs:element name="image" type="imageType" 
+                    minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- ========================================== -->
+  <!-- TYPE COMPLEXE : IMAGE                      -->
+  <!-- ========================================== -->
+  
+  <xs:complexType name="imageType">
+    <xs:annotation>
+      <xs:documentation>
+        Représente une image radiographique avec toutes ses métadonnées.
+      </xs:documentation>
+    </xs:annotation>
+    
+    <xs:sequence>
+      <!-- Identifiants -->
+      <xs:element name="study_id" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Identifiant de l'étude médicale</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="patient_id" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Identifiant du patient</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="birth_year" type="xs:integer">
+        <xs:annotation>
+          <xs:documentation>Année de naissance du patient (1900-2024)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- Informations techniques -->
+      <xs:element name="projection" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Type de projection radiographique (PA, AP, etc.)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="method_projection" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Méthode utilisée pour la projection</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="pediatric" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Indique si c'est un patient pédiatrique</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- Rapport médical -->
+      <xs:element name="report_id" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Identifiant du rapport médical</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="report" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Texte complet du rapport médical</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="method_label" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>Méthode d'étiquetage utilisée</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- Listes de données -->
+      <xs:element name="labels" type="labelsType">
+        <xs:annotation>
+          <xs:documentation>Liste des étiquettes médicales (diagnostics)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="localizations" type="localizationsType">
+        <xs:annotation>
+          <xs:documentation>Liste des localisations anatomiques</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element name="labels_by_sentence" type="labelsBySentenceType">
+        <xs:annotation>
+          <xs:documentation>Labels organisés par phrase du rapport</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    
+    <!-- Attribut obligatoire -->
+    <xs:attribute name="id" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>Identifiant unique de l'image</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+
+  <!-- ========================================== -->
+  <!-- TYPE COMPLEXE : LABELS                     -->
+  <!-- ========================================== -->
+  
+  <xs:complexType name="labelsType">
+    <xs:annotation>
+      <xs:documentation>
+        Conteneur pour une liste de labels médicaux.
+        Peut être vide si aucun diagnostic.
+      </xs:documentation>
+    </xs:annotation>
+    
+    <xs:sequence>
+      <!-- 0 ou plusieurs labels -->
+      <xs:element name="label" type="xs:string" 
+                  minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Un label médical (ex: cardiomegaly, pneumonia)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ========================================== -->
+  <!-- TYPE COMPLEXE : LOCALIZATIONS              -->
+  <!-- ========================================== -->
+  
+  <xs:complexType name="localizationsType">
+    <xs:annotation>
+      <xs:documentation>
+        Conteneur pour une liste de localisations anatomiques.
+        Peut être vide si aucune localisation.
+      </xs:documentation>
+    </xs:annotation>
+    
+    <xs:sequence>
+      <!-- 0 ou plusieurs localisations -->
+      <xs:element name="localization" type="xs:string" 
+                  minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Une localisation anatomique (ex: loc right, loc left)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ========================================== -->
+  <!-- TYPE COMPLEXE : LABELS BY SENTENCE         -->
+  <!-- ========================================== -->
+  
+  <xs:complexType name="labelsBySentenceType">
+    <xs:annotation>
+      <xs:documentation>
+        Structure imbriquée : liste de phrases, chaque phrase contient une liste d'items.
+      </xs:documentation>
+    </xs:annotation>
+    
+    <xs:sequence>
+      <!-- 0 ou plusieurs phrases -->
+      <xs:element name="sentence" type="sentenceType" 
+                  minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Une phrase du rapport médical</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- ========================================== -->
+  <!-- TYPE COMPLEXE : SENTENCE                   -->
+  <!-- ========================================== -->
+  
+  <xs:complexType name="sentenceType">
+    <xs:annotation>
+      <xs:documentation>
+        Une phrase contenant plusieurs items (mots ou expressions).
+      </xs:documentation>
+    </xs:annotation>
+    
+    <xs:sequence>
+      <!-- 0 ou plusieurs items -->
+      <xs:element name="item" type="xs:string" 
+                  minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Un item de la phrase (mot ou expression médicale)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
