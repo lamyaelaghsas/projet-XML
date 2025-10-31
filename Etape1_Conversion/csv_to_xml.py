@@ -13,14 +13,14 @@ import os
 # ============================================================
 
 RACINE_PROJET = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FICHIER_CSV = os.path.join(RACINE_PROJET, "data", "PADCHEST_chest_x_ray_images_labels_160K_01.02.19.csv")
+FICHIER_CSV = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "PADCHEST_chest_x_ray_images_labels_160K_01.02.19.csv")
 
 # Fichiers de sortie
 FICHIER_XML_DTD = os.path.join(os.path.dirname(__file__), "padchest_images_dtd.xml")
 FICHIER_XML_XSD = os.path.join(os.path.dirname(__file__), "padchest_images_xsd.xml")
 
 # Mode test
-NOMBRE_LIGNES_TEST = None
+NOMBRE_LIGNES_TEST = 100
 
 # ============================================================
 # FONCTIONS

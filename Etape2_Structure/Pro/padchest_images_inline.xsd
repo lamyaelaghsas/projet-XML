@@ -55,7 +55,7 @@
         </xs:annotation>
       </xs:element>
       
-      <xs:element name="birth_year" type="xs:integer">
+      <xs:element name="birth_year" type="xs:string">
         <xs:annotation>
           <xs:documentation>Année de naissance du patient (1900-2024)</xs:documentation>
         </xs:annotation>
