@@ -20,7 +20,7 @@ FICHIER_XML_DTD = os.path.join(os.path.dirname(__file__), "padchest_images_dtd.x
 FICHIER_XML_XSD = os.path.join(os.path.dirname(__file__), "padchest_images_xsd.xml")
 
 # Mode test
-NOMBRE_LIGNES_TEST = 100
+NOMBRE_LIGNES_TEST = None
 
 # ============================================================
 # FONCTIONS
