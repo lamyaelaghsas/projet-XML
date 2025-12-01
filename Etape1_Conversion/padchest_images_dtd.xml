@@ -1,0 +1,3304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Etape5/Expert/padchest_expert_avec_webservice.xsl"?>
+<!DOCTYPE padchest_database SYSTEM "../Etape2_Structure/Minimum/padchest_images.dtd">
+<padchest_database>
+  <image id="20536686640136348236148679891455886468_k6ga29.png">
+    <study_id>20536686640136348236148679891455886468</study_id>
+    <patient_id>839860488694292331637988235681460987</patient_id>
+    <birth_year>1930.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4765777</report_id>
+    <report> sin hallazg patolog edad pacient .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="135803415504923515076821959678074435083_fzis7d.png">
+    <study_id>135803415504923515076821959678074435083</study_id>
+    <patient_id>313572750430997347502932654319389875966</patient_id>
+    <birth_year>1929.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4991845</report_id>
+    <report> cambi pulmonar cronic sever . sign fibrosis bibasal . sutil infiltr pseudonodul milimetr vidri deslustr localiz bas . cifosis sever .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>pulmonary fibrosis</label>
+      <label>chronic changes</label>
+      <label>kyphosis</label>
+      <label>pseudonodule</label>
+      <label>ground glass pattern</label>
+    </labels>
+    <localizations>
+      <localization>loc basal</localization>
+      <localization>loc basal bilateral</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>pulmonary fibrosis</item>
+        <item>loc basal bilateral</item>
+      </sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+      <sentence>
+        <item>kyphosis</item>
+      </sentence>
+      <sentence>
+        <item>pseudonodule</item>
+        <item>ground glass pattern</item>
+        <item>loc basal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="135803415504923515076821959678074435083_fzis7b.png">
+    <study_id>135803415504923515076821959678074435083</study_id>
+    <patient_id>313572750430997347502932654319389875966</patient_id>
+    <birth_year>1929.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4991845</report_id>
+    <report> cambi pulmonar cronic sever . sign fibrosis bibasal . sutil infiltr pseudonodul milimetr vidri deslustr localiz bas . cifosis sever .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>pulmonary fibrosis</label>
+      <label>chronic changes</label>
+      <label>kyphosis</label>
+      <label>pseudonodule</label>
+      <label>ground glass pattern</label>
+    </labels>
+    <localizations>
+      <localization>loc basal</localization>
+      <localization>loc basal bilateral</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>pulmonary fibrosis</item>
+        <item>loc basal bilateral</item>
+      </sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+      <sentence>
+        <item>kyphosis</item>
+      </sentence>
+      <sentence>
+        <item>pseudonodule</item>
+        <item>ground glass pattern</item>
+        <item>loc basal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="113855343774216031107737439268243531979_3k951l.png">
+    <study_id>113855343774216031107737439268243531979</study_id>
+    <patient_id>50783093527901818115346441867348318648</patient_id>
+    <birth_year>1925.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4955977</report_id>
+    <report> . . siluet cardi mediastin dentr normal . cambi pulmonar cronic . . . sen costofren libr . . . no sign enfermed metastas .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>chronic changes</label>
+    </labels>
+    <localizations>
+      <localization>loc cardiac</localization>
+      <localization>loc mediastinum</localization>
+      <localization>loc costophrenic angle</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+        <item>loc mediastinum</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+        <item>loc mediastinum</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc costophrenic angle</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="113855343774216031107737439268243531979_3k951n.png">
+    <study_id>113855343774216031107737439268243531979</study_id>
+    <patient_id>50783093527901818115346441867348318648</patient_id>
+    <birth_year>1925.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4955977</report_id>
+    <report> . . siluet cardi mediastin dentr normal . cambi pulmonar cronic . . . sen costofren libr . . . no sign enfermed metastas .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>chronic changes</label>
+    </labels>
+    <localizations>
+      <localization>loc cardiac</localization>
+      <localization>loc mediastinum</localization>
+      <localization>loc costophrenic angle</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+        <item>loc mediastinum</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+        <item>loc mediastinum</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc costophrenic angle</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="313903302629300007485735352869488750471_75sg0k.png">
+    <study_id>313903302629300007485735352869488750471</study_id>
+    <patient_id>3707275269754751392247446521222810702</patient_id>
+    <birth_year>1978.0</birth_year>
+    <projection>AP</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5310833</report_id>
+    <report> objet mejori radiolog con practic resolucion infiltr intersticioalveol objetiv estudi previ fech 04 01 2017 persist algun opac mal defin bas izquierd . rest estudi sin cambi relev respect previ con comp .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>unchanged</label>
+      <label>alveolar pattern</label>
+      <label>interstitial pattern</label>
+    </labels>
+    <localizations>
+      <localization>loc basal</localization>
+      <localization>loc left</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+      <sentence>
+        <item>alveolar pattern</item>
+        <item>interstitial pattern</item>
+        <item>loc basal</item>
+        <item>loc left</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="3137231742710829928-247610802266403640553_km0qf9.png">
+    <study_id>3137231742710829928-247610802266403640553</study_id>
+    <patient_id>93535126770783451980359712286922420997</patient_id>
+    <birth_year>1957.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4969767</report_id>
+    <report> radiografi actual comp con previ 26 juni persistent derram pleural derech . pequen atelectasi subsegmentari bas izquierd . sutur cerclaj esternotomi medi . engros pleural apical izquierd .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>laminar atelectasis</label>
+      <label>pleural effusion</label>
+      <label>apical pleural thickening</label>
+      <label>suture material</label>
+      <label>sternotomy</label>
+    </labels>
+    <localizations>
+      <localization>loc basal</localization>
+      <localization>loc subsegmental</localization>
+      <localization>loc pleural</localization>
+      <localization>loc right</localization>
+      <localization>loc apical</localization>
+      <localization>loc left</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>laminar atelectasis</item>
+        <item>loc subsegmental</item>
+        <item>loc basal</item>
+        <item>loc left</item>
+      </sentence>
+      <sentence>
+        <item>pleural effusion</item>
+        <item>loc pleural</item>
+        <item>loc right</item>
+      </sentence>
+      <sentence>
+        <item>apical pleural thickening</item>
+        <item>loc pleural</item>
+        <item>loc left</item>
+        <item>loc apical</item>
+      </sentence>
+      <sentence>
+        <item>suture material</item>
+        <item>sternotomy</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="3137231742710829928-247610802266403640553_kine6a.png">
+    <study_id>3137231742710829928-247610802266403640553</study_id>
+    <patient_id>93535126770783451980359712286922420997</patient_id>
+    <birth_year>1957.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4969767</report_id>
+    <report> radiografi actual comp con previ 26 juni persistent derram pleural derech . pequen atelectasi subsegmentari bas izquierd . sutur cerclaj esternotomi medi . engros pleural apical izquierd .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>laminar atelectasis</label>
+      <label>pleural effusion</label>
+      <label>apical pleural thickening</label>
+      <label>suture material</label>
+      <label>sternotomy</label>
+    </labels>
+    <localizations>
+      <localization>loc basal</localization>
+      <localization>loc subsegmental</localization>
+      <localization>loc pleural</localization>
+      <localization>loc right</localization>
+      <localization>loc apical</localization>
+      <localization>loc left</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>laminar atelectasis</item>
+        <item>loc subsegmental</item>
+        <item>loc basal</item>
+        <item>loc left</item>
+      </sentence>
+      <sentence>
+        <item>pleural effusion</item>
+        <item>loc pleural</item>
+        <item>loc right</item>
+      </sentence>
+      <sentence>
+        <item>apical pleural thickening</item>
+        <item>loc pleural</item>
+        <item>loc left</item>
+        <item>loc apical</item>
+      </sentence>
+      <sentence>
+        <item>suture material</item>
+        <item>sternotomy</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="313723174271082992847610802266403640553-4_hhi4rq.png">
+    <study_id>313723174271082992847610802266403640553-4</study_id>
+    <patient_id>93535126770783451980359712286922420997</patient_id>
+    <birth_year>1957.0</birth_year>
+    <projection>AP_horizontal</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4923353</report_id>
+    <report> sin grand cambi con respect estudi previ ayer con comp .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>unchanged</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="313723174271082992847610802266403640553-2_40kxq3.png">
+    <study_id>313723174271082992847610802266403640553-2</study_id>
+    <patient_id>93535126770783451980359712286922420997</patient_id>
+    <birth_year>1957.0</birth_year>
+    <projection>AP_horizontal</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4901773</report_id>
+    <report> derram pleural bilateral predomini derech . pequen infiltr interstici alveolar parch bilateral ambos hemitorax . tub endotraqueal 5 mm carin . cerclaj esternotomi medi . sin grand cambi con respect estudi previ ayer .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>alveolar pattern</label>
+      <label>pleural effusion</label>
+      <label>endotracheal tube</label>
+      <label>unchanged</label>
+      <label>sternotomy</label>
+      <label>interstitial pattern</label>
+    </labels>
+    <localizations>
+      <localization>loc pleural</localization>
+      <localization>loc right</localization>
+      <localization>loc hemithorax</localization>
+      <localization>loc tracheal</localization>
+      <localization>loc bilateral</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>alveolar pattern</item>
+        <item>interstitial pattern</item>
+        <item>loc hemithorax</item>
+        <item>loc bilateral</item>
+      </sentence>
+      <sentence>
+        <item>pleural effusion both sides</item>
+        <item>loc pleural</item>
+        <item>loc right</item>
+        <item>loc bilateral</item>
+      </sentence>
+      <sentence>
+        <item>endotracheal tube</item>
+        <item>loc tracheal</item>
+      </sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+      <sentence>
+        <item>sternotomy</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="313723174271082992847610802266403640553_w8dk8c.png">
+    <study_id>313723174271082992847610802266403640553</study_id>
+    <patient_id>93535126770783451980359712286922420997</patient_id>
+    <birth_year>1957.0</birth_year>
+    <projection>AP_horizontal</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4900821</report_id>
+    <report> derram pleural bilateral predomini derech . pequen infiltr parch ambos hemitorax . tub endotraqueal . cerclaj esternotomi medi .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>pleural effusion</label>
+      <label>infiltrates</label>
+      <label>endotracheal tube</label>
+      <label>sternotomy</label>
+    </labels>
+    <localizations>
+      <localization>loc pleural</localization>
+      <localization>loc right</localization>
+      <localization>loc hemithorax</localization>
+      <localization>loc tracheal</localization>
+      <localization>loc bilateral</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>pleural effusion both sides</item>
+        <item>loc pleural</item>
+        <item>loc right</item>
+        <item>loc bilateral</item>
+      </sentence>
+      <sentence>
+        <item>infiltrates</item>
+        <item>loc hemithorax</item>
+        <item>loc bilateral</item>
+      </sentence>
+      <sentence>
+        <item>endotracheal tube</item>
+        <item>loc tracheal</item>
+      </sentence>
+      <sentence>
+        <item>sternotomy</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="313723174271082992847610802266403640553_5_2icww3.png">
+    <study_id>313723174271082992847610802266403640553_5</study_id>
+    <patient_id>93535126770783451980359712286922420997</patient_id>
+    <birth_year>1957.0</birth_year>
+    <projection>AP_horizontal</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4899848</report_id>
+    <report> sutur esternotomi medi . elevacion hemidiafragm izquierd present estudi previ . pers derram pleural bilateral mayor cuanti derech . liger infiltr perihili bibasal valor icc .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>heart insufficiency</label>
+      <label>pleural effusion</label>
+      <label>sternotomy</label>
+      <label>hemidiaphragm elevation</label>
+      <label>infiltrates</label>
+      <label>suture material</label>
+    </labels>
+    <localizations>
+      <localization>loc diaphragm</localization>
+      <localization>loc perihilar</localization>
+      <localization>loc basal bilateral</localization>
+      <localization>loc pleural</localization>
+      <localization>loc right</localization>
+      <localization>loc left</localization>
+      <localization>loc bilateral</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>heart insufficiency</item>
+        <item>infiltrates</item>
+        <item>loc perihilar</item>
+        <item>loc basal bilateral</item>
+      </sentence>
+      <sentence>
+        <item>pleural effusion</item>
+        <item>loc pleural</item>
+        <item>loc right</item>
+        <item>loc bilateral</item>
+      </sentence>
+      <sentence>
+        <item>sternotomy</item>
+        <item>suture material</item>
+      </sentence>
+      <sentence>
+        <item>hemidiaphragm elevation left side</item>
+        <item>loc diaphragm</item>
+        <item>loc left</item>
+      </sentence>
+      <sentence>
+        <item>hemidiaphragm elevation left side</item>
+        <item>loc diaphragm</item>
+        <item>loc left</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="105529804483623054726294337265160703666_6zn76a.png">
+    <study_id>105529804483623054726294337265160703666</study_id>
+    <patient_id>244685263100771469051214745085012030119</patient_id>
+    <birth_year>1945.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5238017</report_id>
+    <report> cabez cuell humeral derech apreci lesion sugest encondrom sin cambi respect estudi previ 14 9 15 . aument mediastin anterosuperior relacion con elongacion tronc supraaort vs boci . cambi degener ose con osteofitosis escoliosis dors lumb . elongacion aortic .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>superior mediastinal enlargement</label>
+      <label>aortic elongation</label>
+      <label>scoliosis</label>
+      <label>sclerotic bone lesion</label>
+      <label>supra aortic elongation</label>
+      <label>vertebral degenerative changes</label>
+      <label>goiter</label>
+    </labels>
+    <localizations>
+      <localization>loc supra aortic</localization>
+      <localization>loc bone</localization>
+      <localization>loc humeral head</localization>
+      <localization>loc humerus</localization>
+      <localization>loc aortic</localization>
+      <localization>loc right</localization>
+      <localization>loc humeral neck</localization>
+      <localization>loc cervical</localization>
+      <localization>loc mediastinum</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>superior mediastinal enlargement</item>
+        <item>supra aortic elongation</item>
+        <item>goiter</item>
+        <item>loc supra aortic</item>
+        <item>loc mediastinum</item>
+      </sentence>
+      <sentence>
+        <item>aortic elongation</item>
+        <item>loc aortic</item>
+      </sentence>
+      <sentence>
+        <item>scoliosis</item>
+        <item>vertebral degenerative changes</item>
+        <item>loc bone</item>
+      </sentence>
+      <sentence>
+        <item>sclerotic bone lesion</item>
+        <item>loc humeral head</item>
+        <item>loc humerus</item>
+        <item>loc right</item>
+        <item>loc humeral neck</item>
+        <item>loc cervical</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="105529804483623054726294337265160703666_6zro32.png">
+    <study_id>105529804483623054726294337265160703666</study_id>
+    <patient_id>244685263100771469051214745085012030119</patient_id>
+    <birth_year>1945.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5238017</report_id>
+    <report> cabez cuell humeral derech apreci lesion sugest encondrom sin cambi respect estudi previ 14 9 15 . aument mediastin anterosuperior relacion con elongacion tronc supraaort vs boci . cambi degener ose con osteofitosis escoliosis dors lumb . elongacion aortic .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>superior mediastinal enlargement</label>
+      <label>aortic elongation</label>
+      <label>scoliosis</label>
+      <label>sclerotic bone lesion</label>
+      <label>supra aortic elongation</label>
+      <label>vertebral degenerative changes</label>
+      <label>goiter</label>
+    </labels>
+    <localizations>
+      <localization>loc supra aortic</localization>
+      <localization>loc bone</localization>
+      <localization>loc humeral head</localization>
+      <localization>loc humerus</localization>
+      <localization>loc aortic</localization>
+      <localization>loc right</localization>
+      <localization>loc humeral neck</localization>
+      <localization>loc cervical</localization>
+      <localization>loc mediastinum</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>superior mediastinal enlargement</item>
+        <item>supra aortic elongation</item>
+        <item>goiter</item>
+        <item>loc supra aortic</item>
+        <item>loc mediastinum</item>
+      </sentence>
+      <sentence>
+        <item>aortic elongation</item>
+        <item>loc aortic</item>
+      </sentence>
+      <sentence>
+        <item>scoliosis</item>
+        <item>vertebral degenerative changes</item>
+        <item>loc bone</item>
+      </sentence>
+      <sentence>
+        <item>sclerotic bone lesion</item>
+        <item>loc humeral head</item>
+        <item>loc humerus</item>
+        <item>loc right</item>
+        <item>loc humeral neck</item>
+        <item>loc cervical</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="238285621348398466668514178112618553012_a7k6dv.png">
+    <study_id>238285621348398466668514178112618553012</study_id>
+    <patient_id>76478060312810134599679306720116852498</patient_id>
+    <birth_year>1987.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5498692</report_id>
+    <report> sin alter radiolog significacion .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="152191969602076825998375638267191596461_ck9qkz.png">
+    <study_id>152191969602076825998375638267191596461</study_id>
+    <patient_id>211676018114322936525876155155978326212</patient_id>
+    <birth_year>1958.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4913344</report_id>
+    <report> sin hallazg radiolog signific .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="102185472428957491598043403159908631419_zb8kco.png">
+    <study_id>102185472428957491598043403159908631419</study_id>
+    <patient_id>139363266799141930129368850508503463058</patient_id>
+    <birth_year>1948.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4995391</report_id>
+    <report> sign radiolog epoc con atrap aere .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>COPD signs</label>
+      <label>air trapping</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>COPD signs</item>
+        <item>air trapping</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="102185472428957491598043403159908631419_zb8kcm.png">
+    <study_id>102185472428957491598043403159908631419</study_id>
+    <patient_id>139363266799141930129368850508503463058</patient_id>
+    <birth_year>1948.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4995391</report_id>
+    <report> sign radiolog epoc con atrap aere .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>COPD signs</label>
+      <label>air trapping</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>COPD signs</item>
+        <item>air trapping</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="281123549817181624378616624376681002225_30lryc.png">
+    <study_id>281123549817181624378616624376681002225</study_id>
+    <patient_id>113184737610424480264857337818446971288</patient_id>
+    <birth_year>1927.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4859689</report_id>
+    <report> no apreci infiltr ni condens pulmonar . escoliosis dorsolumb . elongacion ateromatosis aortic .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>descendent aortic elongation</label>
+      <label>scoliosis</label>
+      <label>aortic atheromatosis</label>
+    </labels>
+    <localizations>
+      <localization>loc aortic</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>descendent aortic elongation</item>
+        <item>aortic atheromatosis</item>
+        <item>loc aortic</item>
+      </sentence>
+      <sentence>
+        <item>scoliosis</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="281123549817181624378616624376681002225_2lbcip.png">
+    <study_id>281123549817181624378616624376681002225</study_id>
+    <patient_id>113184737610424480264857337818446971288</patient_id>
+    <birth_year>1927.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4859689</report_id>
+    <report> no apreci infiltr ni condens pulmonar . escoliosis dorsolumb . elongacion ateromatosis aortic .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>descendent aortic elongation</label>
+      <label>scoliosis</label>
+      <label>aortic atheromatosis</label>
+    </labels>
+    <localizations>
+      <localization>loc aortic</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>descendent aortic elongation</item>
+        <item>aortic atheromatosis</item>
+        <item>loc aortic</item>
+      </sentence>
+      <sentence>
+        <item>scoliosis</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="84289138814897824414670894017743137660_xjsw7k.png">
+    <study_id>84289138814897824414670894017743137660</study_id>
+    <patient_id>132905598244344199302356904572008903408</patient_id>
+    <birth_year>1997.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4674875</report_id>
+    <report> normal .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="197091927572940220397465706155403294733_skbcrv.png">
+    <study_id>197091927572940220397465706155403294733</study_id>
+    <patient_id>207495651950868079059474631960287618739</patient_id>
+    <birth_year>1986.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4665473</report_id>
+    <report> no identif imagen condensacion ni opac pulmonar entid signific . siluet cardiomediastin dentr limit normal . compar con estudi previ 2010 sin identific cambi signific .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>unchanged</label>
+    </labels>
+    <localizations>
+      <localization>loc cardiac</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="197091927572940220397465706155403294733_s4xtdd.png">
+    <study_id>197091927572940220397465706155403294733</study_id>
+    <patient_id>207495651950868079059474631960287618739</patient_id>
+    <birth_year>1986.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4665473</report_id>
+    <report> no identif imagen condensacion ni opac pulmonar entid signific . siluet cardiomediastin dentr limit normal . compar con estudi previ 2010 sin identific cambi signific .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>unchanged</label>
+    </labels>
+    <localizations>
+      <localization>loc cardiac</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="258055173326723517262722952856353517225_hcez67.png">
+    <study_id>258055173326723517262722952856353517225</study_id>
+    <patient_id>163995406284018596913093962224045518908</patient_id>
+    <birth_year>1960.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4841969</report_id>
+    <report> no apreci infiltr ni condens pulmonar .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="258055173326723517262722952856353517225_gxjwwm.png">
+    <study_id>258055173326723517262722952856353517225</study_id>
+    <patient_id>163995406284018596913093962224045518908</patient_id>
+    <birth_year>1960.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4841969</report_id>
+    <report> no apreci infiltr ni condens pulmonar .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="164248849740406851039799839958404888661_etstxt.png">
+    <study_id>164248849740406851039799839958404888661</study_id>
+    <patient_id>224319854913603592455198894978520564865</patient_id>
+    <birth_year>1934.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4778372</report_id>
+    <report> imagen pequen taman redond densid metal proyect torax hombre i relacion probabl con perdigon . compresion par lateral izquierd traque probabl estructur vascular . hipoventilacion bibasal .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>metal</label>
+      <label>superior mediastinal enlargement</label>
+      <label>hypoexpansion basal</label>
+      <label>abnormal foreign body</label>
+      <label>supra aortic elongation</label>
+    </labels>
+    <localizations>
+      <localization>loc shoulder</localization>
+      <localization>loc tracheal</localization>
+      <localization>loc left</localization>
+      <localization>loc basal bilateral</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>metal</item>
+        <item>abnormal foreign body</item>
+        <item>loc shoulder</item>
+      </sentence>
+      <sentence>
+        <item>superior mediastinal enlargement</item>
+        <item>supra aortic elongation</item>
+        <item>loc tracheal</item>
+        <item>loc left</item>
+      </sentence>
+      <sentence>
+        <item>hypoexpansion basal both sides</item>
+        <item>loc basal bilateral</item>
+      </sentence>
+      <sentence>
+        <item>hypoexpansion basal both sides</item>
+        <item>loc basal bilateral</item>
+      </sentence>
+      <sentence>
+        <item>hypoexpansion basal both sides</item>
+        <item>loc basal bilateral</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="243837679625088918208093479515843617254_zotvy7.png">
+    <study_id>243837679625088918208093479515843617254</study_id>
+    <patient_id>122113458248232192114674752959967366181</patient_id>
+    <birth_year>1976.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5084816</report_id>
+    <report> . . . . siluet cardiomediastin dentr normal . . . parenquim pulmon sin infiltr signific patolog . sen costofren libr .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+      <localization>loc cardiac</localization>
+      <localization>loc costophrenic angle</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc costophrenic angle</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="243837679625088918208093479515843617254_znbkkx.png">
+    <study_id>243837679625088918208093479515843617254</study_id>
+    <patient_id>122113458248232192114674752959967366181</patient_id>
+    <birth_year>1976.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5084816</report_id>
+    <report> . . . . siluet cardiomediastin dentr normal . . . parenquim pulmon sin infiltr signific patolog . sen costofren libr .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+      <localization>loc cardiac</localization>
+      <localization>loc costophrenic angle</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc costophrenic angle</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="49602503074420747438297888031645729553_n9jt8a.png">
+    <study_id>49602503074420747438297888031645729553</study_id>
+    <patient_id>8611100909726326876620393323820815701</patient_id>
+    <birth_year>1942.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5028117</report_id>
+    <report> via central trav ven subclavi derech con extrem distal ven cav superior . elongacion aortic . cambi mecan degener column axial . sin hallazg relev .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>aortic elongation</label>
+      <label>vertebral degenerative changes</label>
+      <label>central venous catheter via subclavian vein</label>
+    </labels>
+    <localizations>
+      <localization>loc central</localization>
+      <localization>loc aortic</localization>
+      <localization>loc right</localization>
+      <localization>loc column</localization>
+      <localization>loc superior cave vein</localization>
+      <localization>loc subclavian vein</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>aortic elongation</item>
+        <item>loc aortic</item>
+      </sentence>
+      <sentence>
+        <item>vertebral degenerative changes</item>
+        <item>loc column</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>central venous catheter via subclavian vein</item>
+        <item>loc superior cave vein</item>
+        <item>loc subclavian vein</item>
+        <item>loc right</item>
+        <item>loc central</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="49602503074420747438297888031645729553_2_ut0yzd.png">
+    <study_id>49602503074420747438297888031645729553_2</study_id>
+    <patient_id>8611100909726326876620393323820815701</patient_id>
+    <birth_year>1942.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5023735</report_id>
+    <report> . . siluet cardi mediastin dentr normal . hili prominent probabl orig vascul . . . sen costofren libr . . . hallazg radiolog sugest epoc con atrap aere retrocardiac . . . objet catet venos central derech con extrem distal ven cav superior inici auricul derech . . . . . necesari dat clinic correlacion hallazg radiolog .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>COPD signs</label>
+      <label>central venous catheter</label>
+      <label>vascular hilar enlargement</label>
+      <label>air trapping</label>
+    </labels>
+    <localizations>
+      <localization>loc central</localization>
+      <localization>loc right</localization>
+      <localization>loc costophrenic angle</localization>
+      <localization>loc superior cave vein</localization>
+      <localization>loc hilar</localization>
+      <localization>loc cardiac</localization>
+      <localization>loc mediastinum</localization>
+      <localization>loc retrocardiac</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>exclude</item>
+      </sentence>
+      <sentence>
+        <item>COPD signs</item>
+        <item>air trapping</item>
+        <item>loc retrocardiac</item>
+      </sentence>
+      <sentence>
+        <item>central venous catheter</item>
+        <item>loc superior cave vein</item>
+        <item>loc right</item>
+        <item>loc central</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+        <item>loc mediastinum</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+        <item>loc mediastinum</item>
+      </sentence>
+      <sentence>
+        <item>vascular hilar enlargement</item>
+        <item>loc hilar</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc costophrenic angle</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="337234085099221143119428528401779812468_1hc03o.png">
+    <study_id>337234085099221143119428528401779812468</study_id>
+    <patient_id>155425273695446939355029887990704125385</patient_id>
+    <birth_year>1985.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5353225</report_id>
+    <report> sin hallazg relev .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="337234085099221143119428528401779812468_1hfc86.png">
+    <study_id>337234085099221143119428528401779812468</study_id>
+    <patient_id>155425273695446939355029887990704125385</patient_id>
+    <birth_year>1985.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5353225</report_id>
+    <report> sin hallazg relev .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="184310702224069058068590499996908398488_9u3c15.png">
+    <study_id>184310702224069058068590499996908398488</study_id>
+    <patient_id>275399192536152976712005368676646344887</patient_id>
+    <birth_year>1935.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4870922</report_id>
+    <report> cambi pulmonar cronic . marcapas tricameral . no identific imagen sugest neumotorax .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>pacemaker</label>
+      <label>chronic changes</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>pacemaker</item>
+      </sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="184310702224069058068590499996908398488_yjqmua.png">
+    <study_id>184310702224069058068590499996908398488</study_id>
+    <patient_id>275399192536152976712005368676646344887</patient_id>
+    <birth_year>1935.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4870922</report_id>
+    <report> cambi pulmonar cronic . marcapas tricameral . no identific imagen sugest neumotorax .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>pacemaker</label>
+      <label>chronic changes</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>pacemaker</item>
+      </sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="200091420165336548849526592472869689994_n0exds.png">
+    <study_id>200091420165336548849526592472869689994</study_id>
+    <patient_id>39366693364734268955682136018540034162</patient_id>
+    <birth_year>1943.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5017058</report_id>
+    <report> cambi pulmonar cronic . atelectasi retrocardiac . cifosis acun vertebral anterior .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>atelectasis</label>
+      <label>vertebral anterior compression</label>
+      <label>chronic changes</label>
+      <label>kyphosis</label>
+    </labels>
+    <localizations>
+      <localization>loc column</localization>
+      <localization>loc retrocardiac</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>atelectasis</item>
+        <item>loc retrocardiac</item>
+      </sentence>
+      <sentence>
+        <item>vertebral anterior compression</item>
+        <item>kyphosis</item>
+        <item>loc column</item>
+      </sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="200091420165336548849526592472869689994_n0exdu.png">
+    <study_id>200091420165336548849526592472869689994</study_id>
+    <patient_id>39366693364734268955682136018540034162</patient_id>
+    <birth_year>1943.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5017058</report_id>
+    <report> cambi pulmonar cronic . atelectasi retrocardiac . cifosis acun vertebral anterior .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>atelectasis</label>
+      <label>vertebral anterior compression</label>
+      <label>chronic changes</label>
+      <label>kyphosis</label>
+    </labels>
+    <localizations>
+      <localization>loc column</localization>
+      <localization>loc retrocardiac</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>atelectasis</item>
+        <item>loc retrocardiac</item>
+      </sentence>
+      <sentence>
+        <item>vertebral anterior compression</item>
+        <item>kyphosis</item>
+        <item>loc column</item>
+      </sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="202517159601409650920341045633993544544_2_9i3df2.png">
+    <study_id>202517159601409650920341045633993544544_2</study_id>
+    <patient_id>205508857754400116559265680271099068581</patient_id>
+    <birth_year>1954.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4861679</report_id>
+    <report> liger mejori infiltr posterobasal izquierd descrit estudi previ dia 11 febrer . herni hiat .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>hiatal hernia</label>
+      <label>infiltrates</label>
+    </labels>
+    <localizations>
+      <localization>loc left</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>hiatal hernia</item>
+      </sentence>
+      <sentence>
+        <item>hiatal hernia</item>
+      </sentence>
+      <sentence>
+        <item>infiltrates</item>
+        <item>loc left</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="202517159601409650920341045633993544544_2_92rrpu.png">
+    <study_id>202517159601409650920341045633993544544_2</study_id>
+    <patient_id>205508857754400116559265680271099068581</patient_id>
+    <birth_year>1954.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4861679</report_id>
+    <report> liger mejori infiltr posterobasal izquierd descrit estudi previ dia 11 febrer . herni hiat .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>hiatal hernia</label>
+      <label>infiltrates</label>
+    </labels>
+    <localizations>
+      <localization>loc left</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>hiatal hernia</item>
+      </sentence>
+      <sentence>
+        <item>hiatal hernia</item>
+      </sentence>
+      <sentence>
+        <item>infiltrates</item>
+        <item>loc left</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="202517159601409650920341045633993544544_q8ptnx.png">
+    <study_id>202517159601409650920341045633993544544</study_id>
+    <patient_id>205508857754400116559265680271099068581</patient_id>
+    <birth_year>1954.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4891358</report_id>
+    <report> practic desaparicion derram pleural izquierd . pers liger derram pleural asoci atelectasi basal . rest sin cambi .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>atelectasis</label>
+      <label>unchanged</label>
+      <label>pleural effusion</label>
+    </labels>
+    <localizations>
+      <localization>loc basal</localization>
+      <localization>loc pleural</localization>
+      <localization>loc left</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>atelectasis</item>
+        <item>pleural effusion</item>
+        <item>loc basal</item>
+        <item>loc pleural</item>
+      </sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc pleural</item>
+        <item>loc left</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="202517159601409650920341045633993544544_q5bqpy.png">
+    <study_id>202517159601409650920341045633993544544</study_id>
+    <patient_id>205508857754400116559265680271099068581</patient_id>
+    <birth_year>1954.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4891358</report_id>
+    <report> practic desaparicion derram pleural izquierd . pers liger derram pleural asoci atelectasi basal . rest sin cambi .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>atelectasis</label>
+      <label>unchanged</label>
+      <label>pleural effusion</label>
+    </labels>
+    <localizations>
+      <localization>loc basal</localization>
+      <localization>loc pleural</localization>
+      <localization>loc left</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>atelectasis</item>
+        <item>pleural effusion</item>
+        <item>loc basal</item>
+        <item>loc pleural</item>
+      </sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc pleural</item>
+        <item>loc left</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="12582988208641810053552022080964044412_bdbfde.png">
+    <study_id>12582988208641810053552022080964044412</study_id>
+    <patient_id>188512838216106347133628949390236913120</patient_id>
+    <birth_year>1971.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5177459</report_id>
+    <report> sin hallazg radiolog signific .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="289427999389549886772198825633280652797_q7w6e7.png">
+    <study_id>289427999389549886772198825633280652797</study_id>
+    <patient_id>258207845219240472818304538441607141254</patient_id>
+    <birth_year>1940.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5268215</report_id>
+    <report> escoliosis dorsolumb . ateromatosis aortic . sin hallazg radiolog inter .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>aortic atheromatosis</label>
+      <label>scoliosis</label>
+    </labels>
+    <localizations>
+      <localization>loc aortic</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>aortic atheromatosis</item>
+        <item>loc aortic</item>
+      </sentence>
+      <sentence>
+        <item>scoliosis</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="14968019924555248865694512726537711769_3r162a.png">
+    <study_id>14968019924555248865694512726537711769</study_id>
+    <patient_id>32588016314042952172500681022764831222</patient_id>
+    <birth_year>1993.0</birth_year>
+    <projection>AP_horizontal</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4943910</report_id>
+    <report> sin cambi signific respect estudi previ ayer . patron intersticial bilateral difus probabl edem infeccion . indic cardiotorac dentr normal .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>interstitial pattern</label>
+      <label>unchanged</label>
+      <label>pneumonia</label>
+    </labels>
+    <localizations>
+      <localization>loc cardiac</localization>
+      <localization>loc diffuse bilateral</localization>
+      <localization>loc bilateral</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>interstitial pattern</item>
+        <item>pneumonia</item>
+        <item>loc diffuse bilateral</item>
+        <item>loc bilateral</item>
+      </sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="120005774206062253919592068222866365316_6s9c7e.png">
+    <study_id>120005774206062253919592068222866365316</study_id>
+    <patient_id>287861280338569160347910046821852139304</patient_id>
+    <birth_year>1960.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5117789</report_id>
+    <report> no apreci infiltr pulmonar .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="120005774206062253919592068222866365316_5rzk13.png">
+    <study_id>120005774206062253919592068222866365316</study_id>
+    <patient_id>287861280338569160347910046821852139304</patient_id>
+    <birth_year>1960.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5117789</report_id>
+    <report> no apreci infiltr pulmonar .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="313549846601143223732953772587192376547_5i79or.png">
+    <study_id>313549846601143223732953772587192376547</study_id>
+    <patient_id>63878044857071523117712355881690983334</patient_id>
+    <birth_year>1962.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>resnet-50.t7</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4676622</report_id>
+    <report> sin hallazg signific . lobulacion posterior diafragm derech .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>diaphragmatic eventration</label>
+    </labels>
+    <localizations>
+      <localization>loc right</localization>
+      <localization>loc diaphragm</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>diaphragmatic eventration</item>
+        <item>loc diaphragm</item>
+        <item>loc right</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="313549846601143223732953772587192376547_nokjyw.png">
+    <study_id>313549846601143223732953772587192376547</study_id>
+    <patient_id>63878044857071523117712355881690983334</patient_id>
+    <birth_year>1962.0</birth_year>
+    <projection>L</projection>
+    <method_projection>resnet-50.t7</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4676622</report_id>
+    <report> sin hallazg signific . lobulacion posterior diafragm derech .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>diaphragmatic eventration</label>
+    </labels>
+    <localizations>
+      <localization>loc right</localization>
+      <localization>loc diaphragm</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>diaphragmatic eventration</item>
+        <item>loc diaphragm</item>
+        <item>loc right</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="210977798151529988809048465340516359010_9v5gtq.png">
+    <study_id>210977798151529988809048465340516359010</study_id>
+    <patient_id>198982093195230504246390228004238255748</patient_id>
+    <birth_year>1946.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4780387</report_id>
+    <report> . cambi pulmonar cronic .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>chronic changes</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="68031809687808465969241796432987316467_wir071.png">
+    <study_id>68031809687808465969241796432987316467</study_id>
+    <patient_id>206034364315266209909106199297767779230</patient_id>
+    <birth_year>1958.0</birth_year>
+    <projection>AP_horizontal</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5227087</report_id>
+    <report> are consolidacion parenquimat bilateral resp camp medi derech probabl eitiologi infecci . . conclusion . . neumoni bilateral</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>consolidation</label>
+      <label>pneumonia</label>
+    </labels>
+    <localizations>
+      <localization>loc middle lung field</localization>
+      <localization>loc right</localization>
+      <localization>loc bilateral</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>consolidation</item>
+        <item>pneumonia</item>
+        <item>loc middle lung field</item>
+        <item>loc right</item>
+        <item>loc bilateral</item>
+      </sentence>
+      <sentence>
+        <item>pneumonia</item>
+        <item>loc bilateral</item>
+      </sentence>
+      <sentence>
+        <item>exclude</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="246171875935311699934475428004488908204_2u8xw0.png">
+    <study_id>246171875935311699934475428004488908204</study_id>
+    <patient_id>133519738926541882636332770221982394324</patient_id>
+    <birth_year>1949.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4851872</report_id>
+    <report> . . cambi pulmonar sugest epoc con atrap aere retrocardiac . . . discret aument densid lii sugest discret infiltr correlacion con clinic analit . sen costofren libr . . . discret calcif cabez humeral localizacion ambos tendon supraespin . hallazg sugier cambi tendinopati cronic . . . .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>infiltrates</label>
+      <label>COPD signs</label>
+      <label>calcified densities</label>
+      <label>chronic changes</label>
+      <label>air trapping</label>
+    </labels>
+    <localizations>
+      <localization>loc supraspisnous</localization>
+      <localization>loc humeral head</localization>
+      <localization>loc left lower lobe</localization>
+      <localization>loc humerus</localization>
+      <localization>loc costophrenic angle</localization>
+      <localization>loc retrocardiac</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>infiltrates</item>
+        <item>loc left lower lobe</item>
+      </sentence>
+      <sentence>
+        <item>COPD signs</item>
+        <item>air trapping</item>
+        <item>loc retrocardiac</item>
+      </sentence>
+      <sentence>
+        <item>calcified densities</item>
+        <item>loc supraspisnous</item>
+        <item>loc humeral head</item>
+        <item>loc humerus</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc costophrenic angle</item>
+      </sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="246171875935311699934475428004488908204_1w4xnx.png">
+    <study_id>246171875935311699934475428004488908204</study_id>
+    <patient_id>133519738926541882636332770221982394324</patient_id>
+    <birth_year>1949.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4851872</report_id>
+    <report> . . cambi pulmonar sugest epoc con atrap aere retrocardiac . . . discret aument densid lii sugest discret infiltr correlacion con clinic analit . sen costofren libr . . . discret calcif cabez humeral localizacion ambos tendon supraespin . hallazg sugier cambi tendinopati cronic . . . .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>infiltrates</label>
+      <label>COPD signs</label>
+      <label>calcified densities</label>
+      <label>chronic changes</label>
+      <label>air trapping</label>
+    </labels>
+    <localizations>
+      <localization>loc supraspisnous</localization>
+      <localization>loc humeral head</localization>
+      <localization>loc left lower lobe</localization>
+      <localization>loc humerus</localization>
+      <localization>loc costophrenic angle</localization>
+      <localization>loc retrocardiac</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>infiltrates</item>
+        <item>loc left lower lobe</item>
+      </sentence>
+      <sentence>
+        <item>COPD signs</item>
+        <item>air trapping</item>
+        <item>loc retrocardiac</item>
+      </sentence>
+      <sentence>
+        <item>calcified densities</item>
+        <item>loc supraspisnous</item>
+        <item>loc humeral head</item>
+        <item>loc humerus</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc costophrenic angle</item>
+      </sentence>
+      <sentence>
+        <item>chronic changes</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="128060267991587422580475423001969971705_pjiogk.png">
+    <study_id>128060267991587422580475423001969971705</study_id>
+    <patient_id>295924120130301648307550461274041646613</patient_id>
+    <birth_year>1940.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5083631</report_id>
+    <report> aparent cardiomegali ensanch mediastin superior expens lin paravertebral escas espiracion torac .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>cardiomegaly</label>
+      <label>superior mediastinal enlargement</label>
+    </labels>
+    <localizations>
+      <localization>loc paravertebral</localization>
+      <localization>loc cardiac</localization>
+      <localization>loc mediastinum</localization>
+      <localization>loc superior mediastinum</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>cardiomegaly</item>
+        <item>superior mediastinal enlargement</item>
+        <item>loc paravertebral</item>
+        <item>loc cardiac</item>
+        <item>loc mediastinum</item>
+        <item>loc superior mediastinum</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="92479534840024514330951523511120923900_5xls6f.png">
+    <study_id>92479534840024514330951523511120923900</study_id>
+    <patient_id>40041257996498663560079923743946385736</patient_id>
+    <birth_year>1969.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5253277</report_id>
+    <report> engros pleuroparenquimat biapical .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>apical pleural thickening</label>
+      <label>fibrotic band</label>
+    </labels>
+    <localizations>
+      <localization>loc pleural</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>apical pleural thickening</item>
+        <item>fibrotic band</item>
+        <item>loc pleural</item>
+      </sentence>
+      <sentence>
+        <item>apical pleural thickening</item>
+        <item>fibrotic band</item>
+        <item>loc pleural</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="161246397814087032979663851198463313369_9oov3i.png">
+    <study_id>161246397814087032979663851198463313369</study_id>
+    <patient_id>283586123500297507819740682697109974081</patient_id>
+    <birth_year>1952.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4872303</report_id>
+    <report> lobulacion anterior hemidiafragm derech . siluet cardiomediastin parenquim pulmonar sin alter signific .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>diaphragmatic eventration</label>
+    </labels>
+    <localizations>
+      <localization>loc right</localization>
+      <localization>loc cardiac</localization>
+      <localization>loc diaphragm</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+      </sentence>
+      <sentence>
+        <item>diaphragmatic eventration right side</item>
+        <item>loc diaphragm</item>
+        <item>loc right</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="161246397814087032979663851198463313369_87xsef.png">
+    <study_id>161246397814087032979663851198463313369</study_id>
+    <patient_id>283586123500297507819740682697109974081</patient_id>
+    <birth_year>1952.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4872303</report_id>
+    <report> lobulacion anterior hemidiafragm derech . siluet cardiomediastin parenquim pulmonar sin alter signific .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>diaphragmatic eventration</label>
+    </labels>
+    <localizations>
+      <localization>loc right</localization>
+      <localization>loc cardiac</localization>
+      <localization>loc diaphragm</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+      </sentence>
+      <sentence>
+        <item>diaphragmatic eventration right side</item>
+        <item>loc diaphragm</item>
+        <item>loc right</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="76402843043728886686565759706427345127_cda07x.png">
+    <study_id>76402843043728886686565759706427345127</study_id>
+    <patient_id>278769362303508489952658800165012832784</patient_id>
+    <birth_year>1948.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5114049</report_id>
+    <report> cambi espondilosis dorsal . sin hallazg radiolog signific . comp con estudi previ diciembr 2012 sin apreci cambi relev .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>vertebral degenerative changes</label>
+      <label>unchanged</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>vertebral degenerative changes</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="76402843043728886686565759706427345127_cpbity.png">
+    <study_id>76402843043728886686565759706427345127</study_id>
+    <patient_id>278769362303508489952658800165012832784</patient_id>
+    <birth_year>1948.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5114049</report_id>
+    <report> cambi espondilosis dorsal . sin hallazg radiolog signific . comp con estudi previ diciembr 2012 sin apreci cambi relev .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>vertebral degenerative changes</label>
+      <label>unchanged</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>vertebral degenerative changes</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="184312736713962370100146067543973751114_9rz4uq.png">
+    <study_id>184312736713962370100146067543973751114</study_id>
+    <patient_id>181820943251113403395158953332615833935</patient_id>
+    <birth_year>1959.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4723162</report_id>
+    <report> cambi mecan column dorsal no alter .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>vertebral degenerative changes</label>
+    </labels>
+    <localizations>
+      <localization>loc dorsal vertebrae</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>vertebral degenerative changes</item>
+        <item>loc dorsal vertebrae</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="184312736713962370100146067543973751114_9rz4uo.png">
+    <study_id>184312736713962370100146067543973751114</study_id>
+    <patient_id>181820943251113403395158953332615833935</patient_id>
+    <birth_year>1959.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4723162</report_id>
+    <report> cambi mecan column dorsal no alter .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>vertebral degenerative changes</label>
+    </labels>
+    <localizations>
+      <localization>loc dorsal vertebrae</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>vertebral degenerative changes</item>
+        <item>loc dorsal vertebrae</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="51753302240077846214410306432856713330_w0bmgz.png">
+    <study_id>51753302240077846214410306432856713330</study_id>
+    <patient_id>69089194245303182442100731761325235137</patient_id>
+    <birth_year>1951.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4828831</report_id>
+    <report> sin hallazg signific .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="151619064599028082995709172863126236342_adr7uc.png">
+    <study_id>151619064599028082995709172863126236342</study_id>
+    <patient_id>73940510544083056929733975037849226025</patient_id>
+    <birth_year>1975.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5254141</report_id>
+    <report> sin hallazg relev .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="144161045940829338272357413255772911245_6ca9jm.png">
+    <study_id>144161045940829338272357413255772911245</study_id>
+    <patient_id>177532840841020513550731459928838977003</patient_id>
+    <birth_year>1931.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5317820</report_id>
+    <report> perd volum hemitorax derech expens lsd asoci tract pleuroparenquimat engros pleural hallazg probabl relacion con secuel tbc . escoliosis dorsolumb . elongacion aortic . discret elevacion hemidiafragm izquierd . sin hallazg radiolog signific sin cambi relev respect previ 29 01 2017 con comp .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>aortic elongation</label>
+      <label>scoliosis</label>
+      <label>fibrotic band</label>
+      <label>hemidiaphragm elevation</label>
+      <label>tuberculosis sequelae</label>
+      <label>volume loss</label>
+    </labels>
+    <localizations>
+      <localization>loc diaphragm</localization>
+      <localization>loc aortic</localization>
+      <localization>loc pleural</localization>
+      <localization>loc hemithorax</localization>
+      <localization>loc right upper lobe</localization>
+      <localization>loc left</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>aortic elongation</item>
+        <item>loc aortic</item>
+      </sentence>
+      <sentence>
+        <item>scoliosis</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>fibrotic band</item>
+        <item>tuberculosis sequelae</item>
+        <item>volume loss</item>
+        <item>loc right upper lobe</item>
+        <item>loc pleural</item>
+        <item>loc hemithorax</item>
+      </sentence>
+      <sentence>
+        <item>hemidiaphragm elevation left side</item>
+        <item>loc diaphragm</item>
+        <item>loc left</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="97965053291113766610970450200683915158_ta7i4n.png">
+    <study_id>97965053291113766610970450200683915158</study_id>
+    <patient_id>43124823150667522163553146055208944599</patient_id>
+    <birth_year>1979.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5497776</report_id>
+    <report> . . estudi rot . no identific infiltr ni condens entid signific . elevacion escapul izquierd visibl estudi previ 2012 pued trat hallazg posicional sin pod descart caus .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+      <localization>loc left</localization>
+      <localization>loc scapula</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>exclude</item>
+        <item>loc left</item>
+        <item>loc scapula</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="97965053291113766610970450200683915158_tabe9w.png">
+    <study_id>97965053291113766610970450200683915158</study_id>
+    <patient_id>43124823150667522163553146055208944599</patient_id>
+    <birth_year>1979.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5497776</report_id>
+    <report> . . estudi rot . no identific infiltr ni condens entid signific . elevacion escapul izquierd visibl estudi previ 2012 pued trat hallazg posicional sin pod descart caus .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+      <localization>loc left</localization>
+      <localization>loc scapula</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>exclude</item>
+        <item>loc left</item>
+        <item>loc scapula</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="331418305160381206657770521880050705150_72e70c.png">
+    <study_id>331418305160381206657770521880050705150</study_id>
+    <patient_id>66474886087951963734905127824721953372</patient_id>
+    <birth_year>1932.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5294168</report_id>
+    <report> import cambi cronic parenquim pulmon asoci probabl bronquiectasi infrahiliar bilateral . hili prominent orig vascul . ateromatosis aortic calcific . marcapas unicameral proyect region pectoral izquierd . cerclaj esternotomi medi .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>aortic atheromatosis</label>
+      <label>bronchiectasis</label>
+      <label>pacemaker</label>
+      <label>sternotomy</label>
+      <label>vascular hilar enlargement</label>
+      <label>chronic changes</label>
+      <label>single chamber device</label>
+    </labels>
+    <localizations>
+      <localization>loc aortic</localization>
+      <localization>loc infrahilar</localization>
+      <localization>loc pectoral</localization>
+      <localization>loc hilar</localization>
+      <localization>loc bronchi</localization>
+      <localization>loc left</localization>
+      <localization>loc bilateral</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>aortic atheromatosis</item>
+        <item>loc aortic</item>
+      </sentence>
+      <sentence>
+        <item>bronchiectasis</item>
+        <item>chronic changes</item>
+        <item>loc bronchi</item>
+        <item>loc infrahilar</item>
+        <item>loc bilateral</item>
+      </sentence>
+      <sentence>
+        <item>pacemaker</item>
+        <item>single chamber device</item>
+        <item>loc pectoral</item>
+        <item>loc left</item>
+      </sentence>
+      <sentence>
+        <item>sternotomy</item>
+      </sentence>
+      <sentence>
+        <item>vascular hilar enlargement</item>
+        <item>loc hilar</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="189879177525934914758235054856782466458_rmb21y.png">
+    <study_id>189879177525934914758235054856782466458</study_id>
+    <patient_id>98196770103062682575711903015616199358</patient_id>
+    <birth_year>1931.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5510660</report_id>
+    <report> sign epoc con patron intersticial reticul bilateral perifer predomini ambos lobul inferior relacion con fibrosis patron combin enfisem fibrosis . sin cambi relev respect estudi previ con comp fech 14 03 2017 .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>COPD signs</label>
+      <label>unchanged</label>
+      <label>emphysema</label>
+      <label>interstitial pattern</label>
+    </labels>
+    <localizations>
+      <localization>loc lobar</localization>
+      <localization>loc lower lobe</localization>
+      <localization>loc bilateral</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>COPD signs</item>
+        <item>emphysema</item>
+        <item>interstitial pattern</item>
+        <item>loc lobar</item>
+        <item>loc lower lobe</item>
+        <item>loc bilateral</item>
+      </sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="189879177525934914758235054856782466458_s62cp9.png">
+    <study_id>189879177525934914758235054856782466458</study_id>
+    <patient_id>98196770103062682575711903015616199358</patient_id>
+    <birth_year>1931.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5510660</report_id>
+    <report> sign epoc con patron intersticial reticul bilateral perifer predomini ambos lobul inferior relacion con fibrosis patron combin enfisem fibrosis . sin cambi relev respect estudi previ con comp fech 14 03 2017 .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>COPD signs</label>
+      <label>unchanged</label>
+      <label>emphysema</label>
+      <label>interstitial pattern</label>
+    </labels>
+    <localizations>
+      <localization>loc lobar</localization>
+      <localization>loc lower lobe</localization>
+      <localization>loc bilateral</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>COPD signs</item>
+        <item>emphysema</item>
+        <item>interstitial pattern</item>
+        <item>loc lobar</item>
+        <item>loc lower lobe</item>
+        <item>loc bilateral</item>
+      </sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="63487136239391941594781094159648142893_gq1uz5.png">
+    <study_id>63487136239391941594781094159648142893</study_id>
+    <patient_id>198076519081129261161765855511133807632</patient_id>
+    <birth_year>1933.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5082558</report_id>
+    <report> . . hipercifosis dorsal . disminucion espaci intersomat con esclerosis subcondral listesis grad 1 ultim vertebr dorsal primer lumbar . . . rest sin grand cambi respect estudi previ fech 17 12 2012 .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>kyphosis</label>
+      <label>vertebral compression</label>
+      <label>unchanged</label>
+    </labels>
+    <localizations>
+      <localization>loc dorsal vertebrae</localization>
+      <localization>loc intersomatic space</localization>
+      <localization>loc column</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>kyphosis</item>
+      </sentence>
+      <sentence>
+        <item>vertebral compression</item>
+        <item>loc dorsal vertebrae</item>
+        <item>loc intersomatic space</item>
+        <item>loc column</item>
+      </sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="63487136239391941594781094159648142893_gqzn22.png">
+    <study_id>63487136239391941594781094159648142893</study_id>
+    <patient_id>198076519081129261161765855511133807632</patient_id>
+    <birth_year>1933.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5082558</report_id>
+    <report> . . hipercifosis dorsal . disminucion espaci intersomat con esclerosis subcondral listesis grad 1 ultim vertebr dorsal primer lumbar . . . rest sin grand cambi respect estudi previ fech 17 12 2012 .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>kyphosis</label>
+      <label>vertebral compression</label>
+      <label>unchanged</label>
+    </labels>
+    <localizations>
+      <localization>loc dorsal vertebrae</localization>
+      <localization>loc intersomatic space</localization>
+      <localization>loc column</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>kyphosis</item>
+      </sentence>
+      <sentence>
+        <item>vertebral compression</item>
+        <item>loc dorsal vertebrae</item>
+        <item>loc intersomatic space</item>
+        <item>loc column</item>
+      </sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="116214335211172899244399191709569184937_wxxy0k.png">
+    <study_id>116214335211172899244399191709569184937</study_id>
+    <patient_id>31605060921092647129354889492725140380</patient_id>
+    <birth_year>1937.0</birth_year>
+    <projection>AP_horizontal</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4650643</report_id>
+    <report> sin hallazg signific .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="161720087930788128392552413311709834803_zw9ndh.png">
+    <study_id>161720087930788128392552413311709834803</study_id>
+    <patient_id>115933891648546567760532490223099105079</patient_id>
+    <birth_year>1938.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4749038</report_id>
+    <report> import sign radiolog epoc .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>COPD signs</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>COPD signs</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="182408105675910680785179281207852452925_1710ry.png">
+    <study_id>182408105675910680785179281207852452925</study_id>
+    <patient_id>4884190198362136457971924837025901981</patient_id>
+    <birth_year>1937.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5162549</report_id>
+    <report> sin hallazg signific . .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="182408105675910680785179281207852452925_ybx7hr.png">
+    <study_id>182408105675910680785179281207852452925</study_id>
+    <patient_id>4884190198362136457971924837025901981</patient_id>
+    <birth_year>1937.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5162549</report_id>
+    <report> sin hallazg signific . .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="240901793831868002350241513124822033145_clgbhs.png">
+    <study_id>240901793831868002350241513124822033145</study_id>
+    <patient_id>27469857597493924763355022866351961988</patient_id>
+    <birth_year>1959.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4671607</report_id>
+    <report> sign enfisem pulmon con bull lsi . aument tram broncovascul maner bilateral probabl relacion con proces infecci</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>bronchovascular markings</label>
+      <label>emphysema</label>
+      <label>pneumonia</label>
+      <label>bullas</label>
+    </labels>
+    <localizations>
+      <localization>loc left upper lobe</localization>
+      <localization>loc bronchi</localization>
+      <localization>loc bilateral</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>bronchovascular markings</item>
+        <item>pneumonia</item>
+        <item>loc bronchi</item>
+        <item>loc bilateral</item>
+      </sentence>
+      <sentence>
+        <item>emphysema</item>
+        <item>bullas</item>
+        <item>loc left upper lobe</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="240901793831868002350241513124822033145_bnzkfq.png">
+    <study_id>240901793831868002350241513124822033145</study_id>
+    <patient_id>27469857597493924763355022866351961988</patient_id>
+    <birth_year>1959.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4671607</report_id>
+    <report> sign enfisem pulmon con bull lsi . aument tram broncovascul maner bilateral probabl relacion con proces infecci</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>bronchovascular markings</label>
+      <label>emphysema</label>
+      <label>pneumonia</label>
+      <label>bullas</label>
+    </labels>
+    <localizations>
+      <localization>loc left upper lobe</localization>
+      <localization>loc bronchi</localization>
+      <localization>loc bilateral</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>bronchovascular markings</item>
+        <item>pneumonia</item>
+        <item>loc bronchi</item>
+        <item>loc bilateral</item>
+      </sentence>
+      <sentence>
+        <item>emphysema</item>
+        <item>bullas</item>
+        <item>loc left upper lobe</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="319976350840661489788378306853554168892_k66lpi.png">
+    <study_id>319976350840661489788378306853554168892</study_id>
+    <patient_id>245121435882835496875234917675344313826</patient_id>
+    <birth_year>1985.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5136999</report_id>
+    <report> sin hallazg signific .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="319976350840661489788378306853554168892_is6ipx.png">
+    <study_id>319976350840661489788378306853554168892</study_id>
+    <patient_id>245121435882835496875234917675344313826</patient_id>
+    <birth_year>1985.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5136999</report_id>
+    <report> sin hallazg signific .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="122344634100249204350826448738624565922_2_waa6q5.png">
+    <study_id>122344634100249204350826448738624565922_2</study_id>
+    <patient_id>54189049046785323036443069546286747636</patient_id>
+    <birth_year>1956.0</birth_year>
+    <projection>AP_horizontal</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4927171</report_id>
+    <report> infiltr interstici alveol difus bilateral sin cambi . tub endotraqueal 1 5 cm carin .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>alveolar pattern</label>
+      <label>endotracheal tube</label>
+      <label>interstitial pattern</label>
+    </labels>
+    <localizations>
+      <localization>loc tracheal</localization>
+      <localization>loc diffuse bilateral</localization>
+      <localization>loc bilateral</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>alveolar pattern</item>
+        <item>interstitial pattern</item>
+        <item>loc diffuse bilateral</item>
+        <item>loc bilateral</item>
+      </sentence>
+      <sentence>
+        <item>endotracheal tube</item>
+        <item>loc tracheal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="122344634100249204350826448738624565922_jwi6hp.png">
+    <study_id>122344634100249204350826448738624565922</study_id>
+    <patient_id>54189049046785323036443069546286747636</patient_id>
+    <birth_year>1956.0</birth_year>
+    <projection>AP_horizontal</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4923361</report_id>
+    <report> comp con estudi ayer sin cambi con respect infiltr interstici alveolar bilateral predomini bibasal asoci derram pleural hallazg sugest icc . sin cambi respect estudi previ ayer con comp .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>alveolar pattern</label>
+      <label>unchanged</label>
+      <label>interstitial pattern</label>
+      <label>heart insufficiency</label>
+      <label>pleural effusion</label>
+    </labels>
+    <localizations>
+      <localization>loc pleural</localization>
+      <localization>loc basal bilateral</localization>
+      <localization>loc bilateral</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>alveolar pattern</item>
+        <item>interstitial pattern</item>
+        <item>heart insufficiency</item>
+        <item>pleural effusion</item>
+        <item>loc pleural</item>
+        <item>loc bilateral</item>
+        <item>loc basal bilateral</item>
+      </sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="62251368659414281768550499840080640229_8jw2hb.png">
+    <study_id>62251368659414281768550499840080640229</study_id>
+    <patient_id>12258663245396477058286432024466027208</patient_id>
+    <birth_year>1947.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5502603</report_id>
+    <report> aument indic cardiotorac . hili congest . sin hallazg radiolog signific .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>cardiomegaly</label>
+      <label>hilar congestion</label>
+    </labels>
+    <localizations>
+      <localization>loc hilar</localization>
+      <localization>loc cardiac</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>cardiomegaly</item>
+        <item>loc cardiac</item>
+      </sentence>
+      <sentence>
+        <item>hilar congestion</item>
+        <item>loc hilar</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="62251368659414281768550499840080640229_8mln0w.png">
+    <study_id>62251368659414281768550499840080640229</study_id>
+    <patient_id>12258663245396477058286432024466027208</patient_id>
+    <birth_year>1947.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5502603</report_id>
+    <report> aument indic cardiotorac . hili congest . sin hallazg radiolog signific .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>cardiomegaly</label>
+      <label>hilar congestion</label>
+    </labels>
+    <localizations>
+      <localization>loc hilar</localization>
+      <localization>loc cardiac</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>cardiomegaly</item>
+        <item>loc cardiac</item>
+      </sentence>
+      <sentence>
+        <item>hilar congestion</item>
+        <item>loc hilar</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="171051287936845049879249602678024183940_hmwguj.png">
+    <study_id>171051287936845049879249602678024183940</study_id>
+    <patient_id>304602534939089227355717214727839531565</patient_id>
+    <birth_year>1929.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4831230</report_id>
+    <report> i presion</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>exclude</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>exclude</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="173348027872651650413607534885352239722_ksfbkd.png">
+    <study_id>173348027872651650413607534885352239722</study_id>
+    <patient_id>271951847810624632069092812250232833316</patient_id>
+    <birth_year>2002.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4657363</report_id>
+    <report> parenquim pulmon siluet cardiomediastin dentr normal . no apreci alter caj torac .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+      <localization>loc cardiac</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="173348027872651650413607534885352239722_ksfbkb.png">
+    <study_id>173348027872651650413607534885352239722</study_id>
+    <patient_id>271951847810624632069092812250232833316</patient_id>
+    <birth_year>2002.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4657363</report_id>
+    <report> parenquim pulmon siluet cardiomediastin dentr normal . no apreci alter caj torac .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+      <localization>loc cardiac</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="91046824590296218285321995116548320507_vtkk7p.png">
+    <study_id>91046824590296218285321995116548320507</study_id>
+    <patient_id>53687125562956090852736441818829947307</patient_id>
+    <birth_year>1952.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4869070</report_id>
+    <report> . . sign atrap aere . . . indic cardiotorac limit normal . elongacion aortic . . . calcificacion ligament longitudinal comun anterior raquis dorsal sin sign degener probabl relacion enfermed foresti hiperostosis esquelet idiopat difus . . . no apreci opac ni condens signific patolog</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>aortic elongation</label>
+      <label>COPD signs</label>
+      <label>calcified densities</label>
+      <label>air trapping</label>
+      <label>axial hyperostosis</label>
+    </labels>
+    <localizations>
+      <localization>loc aortic</localization>
+      <localization>loc cardiac</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>aortic elongation</item>
+        <item>loc aortic</item>
+      </sentence>
+      <sentence>
+        <item>COPD signs</item>
+        <item>air trapping</item>
+      </sentence>
+      <sentence>
+        <item>calcified densities</item>
+        <item>axial hyperostosis</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="91046824590296218285321995116548320507_vq78pf.png">
+    <study_id>91046824590296218285321995116548320507</study_id>
+    <patient_id>53687125562956090852736441818829947307</patient_id>
+    <birth_year>1952.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4869070</report_id>
+    <report> . . sign atrap aere . . . indic cardiotorac limit normal . elongacion aortic . . . calcificacion ligament longitudinal comun anterior raquis dorsal sin sign degener probabl relacion enfermed foresti hiperostosis esquelet idiopat difus . . . no apreci opac ni condens signific patolog</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>aortic elongation</label>
+      <label>COPD signs</label>
+      <label>calcified densities</label>
+      <label>air trapping</label>
+      <label>axial hyperostosis</label>
+    </labels>
+    <localizations>
+      <localization>loc aortic</localization>
+      <localization>loc cardiac</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>aortic elongation</item>
+        <item>loc aortic</item>
+      </sentence>
+      <sentence>
+        <item>COPD signs</item>
+        <item>air trapping</item>
+      </sentence>
+      <sentence>
+        <item>calcified densities</item>
+        <item>axial hyperostosis</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="47784381729225956156725553701446715500_sgkre8.png">
+    <study_id>47784381729225956156725553701446715500</study_id>
+    <patient_id>123573157478651289703588553949370014789</patient_id>
+    <birth_year>1932.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5057974</report_id>
+    <report> no observ neumotorax signific . hili congest . cardiomegali . ateromatosis aortic calcific . marcapas dai proyect region pectoral izquierd .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>aortic atheromatosis</label>
+      <label>pacemaker</label>
+      <label>hilar congestion</label>
+      <label>cardiomegaly</label>
+    </labels>
+    <localizations>
+      <localization>loc aortic</localization>
+      <localization>loc pectoral</localization>
+      <localization>loc hilar</localization>
+      <localization>loc cardiac</localization>
+      <localization>loc left</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>aortic atheromatosis</item>
+        <item>loc aortic</item>
+      </sentence>
+      <sentence>
+        <item>pacemaker</item>
+        <item>loc pectoral</item>
+        <item>loc left</item>
+      </sentence>
+      <sentence>
+        <item>hilar congestion</item>
+        <item>loc hilar</item>
+      </sentence>
+      <sentence>
+        <item>cardiomegaly</item>
+        <item>loc cardiac</item>
+      </sentence>
+      <sentence>
+        <item>cardiomegaly</item>
+        <item>loc cardiac</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="267593312931260619142226905522973356507_dfimnx.png">
+    <study_id>267593312931260619142226905522973356507</study_id>
+    <patient_id>280462310073265991548134106847705397458</patient_id>
+    <birth_year>1963.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5245086</report_id>
+    <report> sin hallazg relev .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="282962113601706478876461612066976190177_bys50e.png">
+    <study_id>282962113601706478876461612066976190177</study_id>
+    <patient_id>159275443140036228565713810001843082059</patient_id>
+    <birth_year>1968.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5340878</report_id>
+    <report> marc sign radiolog epoc . tract pleuroparenquimat parahiliar izquierd sin cambi con respect estudi previ may 2016 .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>COPD signs</label>
+      <label>fibrotic band</label>
+    </labels>
+    <localizations>
+      <localization>loc perihilar</localization>
+      <localization>loc pleural</localization>
+      <localization>loc left</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>COPD signs</item>
+      </sentence>
+      <sentence>
+        <item>fibrotic band</item>
+        <item>loc perihilar</item>
+        <item>loc pleural</item>
+        <item>loc left</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="285796371492896407898360932351947981404_dbgkg1.png">
+    <study_id>285796371492896407898360932351947981404</study_id>
+    <patient_id>322910983242088023051744303099967541000</patient_id>
+    <birth_year>1934.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4932942</report_id>
+    <report> atrap aere .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>air trapping</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>air trapping</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="105591880985588572332898967525311229749_yqjtuk.png">
+    <study_id>105591880985588572332898967525311229749</study_id>
+    <patient_id>221360453921196013439629607608279826913</patient_id>
+    <birth_year>1966.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4909145</report_id>
+    <report> sin hallazg signific .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="330324745759424821132494701991767497957_9fc9au.png">
+    <study_id>330324745759424821132494701991767497957</study_id>
+    <patient_id>134402298451121655439450191454293497885</patient_id>
+    <birth_year>1966.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>5155016</report_id>
+    <report> . sin hallazg .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="2131660293658241410166268879399943517_h0uqdu.png">
+    <study_id>2131660293658241410166268879399943517</study_id>
+    <patient_id>335771629951676288208409070652425603271</patient_id>
+    <birth_year>1957.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4727574</report_id>
+    <report> mejori radiolog con respect infiltr basal izquierd . rest sin cambi con respect anterior estudi .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>infiltrates</label>
+      <label>unchanged</label>
+    </labels>
+    <localizations>
+      <localization>loc basal</localization>
+      <localization>loc left</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>infiltrates</item>
+        <item>loc basal</item>
+        <item>loc left</item>
+      </sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="2131660293658241410166268879399943517_h0uqds.png">
+    <study_id>2131660293658241410166268879399943517</study_id>
+    <patient_id>335771629951676288208409070652425603271</patient_id>
+    <birth_year>1957.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4727574</report_id>
+    <report> mejori radiolog con respect infiltr basal izquierd . rest sin cambi con respect anterior estudi .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>infiltrates</label>
+      <label>unchanged</label>
+    </labels>
+    <localizations>
+      <localization>loc basal</localization>
+      <localization>loc left</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>infiltrates</item>
+        <item>loc basal</item>
+        <item>loc left</item>
+      </sentence>
+      <sentence>
+        <item>unchanged</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="175828040998318011818448557383860207677_m5a8ih.png">
+    <study_id>175828040998318011818448557383860207677</study_id>
+    <patient_id>110738738652703005598703591649887328985</patient_id>
+    <birth_year>1935.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4773232</report_id>
+    <report> sin hallazg patolog edad pacient .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="101408931302974623103956952273007774313_9stb1v.png">
+    <study_id>101408931302974623103956952273007774313</study_id>
+    <patient_id>114788641597613568402867064501919389443</patient_id>
+    <birth_year>1985.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4955992</report_id>
+    <report> . . mejori radiolog . . . siluet cardi mediastin dentr normal . . . sen costofren libr .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+      <localization>loc cardiac</localization>
+      <localization>loc mediastinum</localization>
+      <localization>loc costophrenic angle</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>exclude</item>
+      </sentence>
+      <sentence>
+        <item>exclude</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+        <item>loc mediastinum</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+        <item>loc mediastinum</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc costophrenic angle</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="101408931302974623103956952273007774313_9stb1t.png">
+    <study_id>101408931302974623103956952273007774313</study_id>
+    <patient_id>114788641597613568402867064501919389443</patient_id>
+    <birth_year>1985.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4955992</report_id>
+    <report> . . mejori radiolog . . . siluet cardi mediastin dentr normal . . . sen costofren libr .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>normal</label>
+    </labels>
+    <localizations>
+      <localization>loc cardiac</localization>
+      <localization>loc mediastinum</localization>
+      <localization>loc costophrenic angle</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>exclude</item>
+      </sentence>
+      <sentence>
+        <item>exclude</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+        <item>loc mediastinum</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc cardiac</item>
+        <item>loc mediastinum</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+        <item>loc costophrenic angle</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="67670115219232152220849057375830836196_8lyy43.png">
+    <study_id>67670115219232152220849057375830836196</study_id>
+    <patient_id>11261673292084169585344839962619579960</patient_id>
+    <birth_year>1936.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4661905</report_id>
+    <report> tract fibros granulom calcific con engros pleural apical vertic izquierd probabl caract especif residual con ciert perd volum . calcificacion cay aortic .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>aortic button enlargement</label>
+      <label>apical pleural thickening</label>
+      <label>aortic atheromatosis</label>
+      <label>fibrotic band</label>
+      <label>calcified granuloma</label>
+      <label>volume loss</label>
+    </labels>
+    <localizations>
+      <localization>loc aortic</localization>
+      <localization>loc pleural</localization>
+      <localization>loc left</localization>
+      <localization>loc apical</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>aortic button enlargement</item>
+        <item>aortic atheromatosis</item>
+        <item>loc aortic</item>
+      </sentence>
+      <sentence>
+        <item>apical pleural thickening</item>
+        <item>fibrotic band</item>
+        <item>calcified granuloma</item>
+        <item>volume loss</item>
+        <item>loc pleural</item>
+        <item>loc left</item>
+        <item>loc apical</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="246150011638121209286805961508731462739_88c8du.png">
+    <study_id>246150011638121209286805961508731462739</study_id>
+    <patient_id>169289909346590977824044847440506498524</patient_id>
+    <birth_year>1981.0</birth_year>
+    <projection>L</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4950246</report_id>
+    <report> no apreci infiltr ni condens pulmonar . fractur clavicul derech .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>clavicle fracture</label>
+    </labels>
+    <localizations>
+      <localization>loc clavicle</localization>
+      <localization>loc right</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>clavicle fracture</item>
+        <item>loc clavicle</item>
+        <item>loc right</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+  <image id="246150011638121209286805961508731462739_7rcjox.png">
+    <study_id>246150011638121209286805961508731462739</study_id>
+    <patient_id>169289909346590977824044847440506498524</patient_id>
+    <birth_year>1981.0</birth_year>
+    <projection>PA</projection>
+    <method_projection>Manual review of DICOM fields</method_projection>
+    <pediatric>No</pediatric>
+    <report_id>4950246</report_id>
+    <report> no apreci infiltr ni condens pulmonar . fractur clavicul derech .</report>
+    <method_label>Physician</method_label>
+    <labels>
+      <label>clavicle fracture</label>
+    </labels>
+    <localizations>
+      <localization>loc clavicle</localization>
+      <localization>loc right</localization>
+    </localizations>
+    <labels_by_sentence>
+      <sentence>
+        <item>clavicle fracture</item>
+        <item>loc clavicle</item>
+        <item>loc right</item>
+      </sentence>
+      <sentence>
+        <item>normal</item>
+      </sentence>
+    </labels_by_sentence>
+  </image>
+</padchest_database>

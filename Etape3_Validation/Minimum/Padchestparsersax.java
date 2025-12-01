@@ -10,7 +10,6 @@ import java.util.*;
  * ============================================================================
  * PARSER SAX POUR PADCHEST
  * ============================================================================
- * Basé sur les exemples du cours Leçon 4 : SAX et DOM (slides 22-26)
  * 
  * Ce parser calcule :
  * 1. Nombre d'images avec localisation "loc right"
@@ -19,7 +18,7 @@ import java.util.*;
 public class PadChestParserSAX extends DefaultHandler {
     
     // ========================================================================
-    // VARIABLES POUR LES STATISTIQUES (comme dans le cours)
+    // VARIABLES POUR LES STATISTIQUES 
     // ========================================================================
     
     private int nbImages = 0;                           // Compteur d'images
@@ -41,7 +40,7 @@ public class PadChestParserSAX extends DefaultHandler {
     // ========================================================================
     // MÉTHODE 1 : startDocument() - Début du parsing
     // ========================================================================
-    // Appelée UNE SEULE FOIS au début (slide 22 du cours)
+    // Appelée UNE SEULE FOIS au début 
     
     @Override
     public void startDocument() throws SAXException {
@@ -53,7 +52,7 @@ public class PadChestParserSAX extends DefaultHandler {
     // ========================================================================
     // MÉTHODE 2 : startElement() - Balise ouvrante
     // ========================================================================
-    // Appelée à chaque fois qu'on rencontre <tag> (slide 23 du cours)
+    // Appelée à chaque fois qu'on rencontre <tag> 
     
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attr) 
@@ -65,7 +64,7 @@ public class PadChestParserSAX extends DefaultHandler {
         // Réinitialiser la valeur courante
         currentValue.setLength(0);
         
-        // Incrémenter le compteur de tags (comme dans le cours)
+        // Incrémenter le compteur de tags 
         cptTags++;
         
         // ----------------------------------------------------------------
@@ -104,7 +103,7 @@ public class PadChestParserSAX extends DefaultHandler {
     // ========================================================================
     // MÉTHODE 3 : characters() - Contenu textuel
     // ========================================================================
-    // Appelée pour récupérer le texte entre <tag> et </tag> (slide 22 du cours)
+    // Appelée pour récupérer le texte entre <tag> et </tag> 
     
     @Override
     public void characters(char[] ch, int start, int length) throws SAXException {
@@ -121,7 +120,7 @@ public class PadChestParserSAX extends DefaultHandler {
     // ========================================================================
     // MÉTHODE 4 : endElement() - Balise fermante
     // ========================================================================
-    // Appelée à chaque fois qu'on rencontre </tag> (slide 24 du cours)
+    // Appelée à chaque fois qu'on rencontre </tag> 
     
     @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
@@ -133,7 +132,7 @@ public class PadChestParserSAX extends DefaultHandler {
         cptTags++;
         
         // ----------------------------------------------------------------
-        // TRAITEMENT : Fin de <localization>
+        // TRAITEMENT : Fin de <localization> - COMPTAGE DES LOC RIGHT
         // ----------------------------------------------------------------
         if (qName.equals("localization") && inLocalizations) {
             // Si le texte contient "loc right", on compte cette image
@@ -143,7 +142,7 @@ public class PadChestParserSAX extends DefaultHandler {
         }
         
         // ----------------------------------------------------------------
-        // TRAITEMENT : Fin de <label>
+        // TRAITEMENT : Fin de <label> - COMPTAGE DES LABELS 
         // ----------------------------------------------------------------
         if (qName.equals("label") && inLabels) {
             if (!value.isEmpty()) {
@@ -171,7 +170,7 @@ public class PadChestParserSAX extends DefaultHandler {
     // ========================================================================
     // MÉTHODE 5 : endDocument() - Fin du parsing
     // ========================================================================
-    // Appelée UNE SEULE FOIS à la fin (slide 22 du cours)
+    // Appelée UNE SEULE FOIS à la fin 
     
     @Override
     public void endDocument() throws SAXException {
@@ -181,7 +180,7 @@ public class PadChestParserSAX extends DefaultHandler {
     }
     
     // ========================================================================
-    // GESTION DES ERREURS (ErrorHandler - slide 24 du cours)
+    // GESTION DES ERREURS (ErrorHandler)
     // ========================================================================
     
     @Override
@@ -255,60 +254,59 @@ public class PadChestParserSAX extends DefaultHandler {
     // PROGRAMME PRINCIPAL
     // ========================================================================
     
+    // PROGRAMME PRINCIPAL
     public static void main(String[] args) {
+
         System.out.println("=".repeat(70));
         System.out.println("PARSER SAX - Analyse du fichier PadChest XML");
         System.out.println("=".repeat(70));
         System.out.println();
-        
+
         try {
-            // ----------------------------------------------------------------
-            // ÉTAPE 1 : Créer une SAXParserFactory (slide 10 du cours)
-            // ----------------------------------------------------------------
+
+            // ============================================================
+            // ÉTAPE 1 : Créer une SAXParserFactory
+            // ============================================================
             SAXParserFactory factory = SAXParserFactory.newInstance();
-            
-            // ----------------------------------------------------------------
+
+            // ============================================================
             // ÉTAPE 2 : Configurer la factory
-            // ----------------------------------------------------------------
-            factory.setValidating(true);       // Active la validation DTD
-            factory.setNamespaceAware(false);  // Pas de gestion des namespaces
-            
-            System.out.println("Configuration du parser :");
-            System.out.println("  - Validation : OUI (DTD)");
-            System.out.println("  - Namespace aware : NON");
-            System.out.println();
-            
-            // ----------------------------------------------------------------
-            // ÉTAPE 3 : Créer le SAXParser (slide 10 du cours)
-            // ----------------------------------------------------------------
+            // ============================================================
+            factory.setValidating(true);   // Validation DTD activée
+            factory.setNamespaceAware(false);
+
+            // ============================================================
+            // ÉTAPE 3 : Créer un SAXParser
+            // ============================================================
             SAXParser saxParser = factory.newSAXParser();
-            
-            // ----------------------------------------------------------------
-            // ÉTAPE 4 : Créer notre handler (slide 25 du cours)
-            // ----------------------------------------------------------------
+
+            // ============================================================
+            // ÉTAPE 4 : Créer un handler
+            // ============================================================
             PadChestParserSAX handler = new PadChestParserSAX();
-            
-            // ----------------------------------------------------------------
-            // ÉTAPE 5 : Lancer le parsing (slide 25 du cours)
-            // ----------------------------------------------------------------
+
+            // ============================================================
+            // ÉTAPE 5 : Définir le chemin du XML ICI (à la place de args[0])
+            // ============================================================
+            String xmlPath = "../../Etape1_Conversion/padchest_images_dtd.xml";
+            System.out.println("Fichier analysé : " + xmlPath);
+
+            // Lancer le parsing
             System.out.println("Début du parsing...");
             long startTime = System.currentTimeMillis();
-            
-            // IMPORTANT : Change "padchest_images_dtd.xml" par le nom de ton fichier
-            saxParser.parse("../../Etape1_Conversion/padchest_images_dtd.xml", handler);
-            
+
+            saxParser.parse(xmlPath, handler);
+
             long endTime = System.currentTimeMillis();
             long duration = endTime - startTime;
-            
-            System.out.println();
-            System.out.println("Parsing terminé en " + duration + " ms");
-            System.out.println();
-            
-            // ----------------------------------------------------------------
+
+            System.out.println("\nParsing terminé en " + duration + " ms\n");
+
+            // ============================================================
             // ÉTAPE 6 : Afficher les résultats
-            // ----------------------------------------------------------------
+            // ============================================================
             handler.afficherResultats();
-            
+
         } catch (Exception e) {
             System.err.println("ERREUR : " + e.getMessage());
             e.printStackTrace();

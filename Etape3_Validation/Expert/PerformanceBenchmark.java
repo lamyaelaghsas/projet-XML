@@ -44,9 +44,9 @@ public class PerformanceBenchmark {
     // ========================================================================
     
     public static ResultatTest testerSAX_DTD(String fichierXML) {
-        System.out.println("\n🔍 Test SAX avec validation DTD...");
+        System.out.println("\nTest SAX avec validation DTD...");
         
-        // Forcer le garbage collector avant le test
+        // Forcer le garbage collector avant le test (nettoie les objets inutiles)
         System.gc();
         
         long memoireAvant = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
@@ -68,13 +68,13 @@ public class PerformanceBenchmark {
             long tempsExecution = tempsFin - tempsDebut;
             long memoireUtilisee = memoireApres - memoireAvant;
             
-            System.out.println("   ✅ Réussi");
-            System.out.println("   📊 " + handler.nbImages + " images, " + handler.nbLabels + " labels");
+            System.out.println("Réussi");
+            System.out.println(" " + handler.nbImages + " images, " + handler.nbLabels + " labels");
             
             return new ResultatTest("SAX + DTD", tempsExecution, memoireUtilisee, true);
             
         } catch (Exception e) {
-            System.out.println("   ❌ Erreur : " + e.getMessage());
+            System.out.println(" Erreur : " + e.getMessage());
             return new ResultatTest("SAX + DTD", 0, 0, false);
         }
     }
@@ -84,7 +84,7 @@ public class PerformanceBenchmark {
     // ========================================================================
     
     public static ResultatTest testerSAX_XSD(String fichierXML) {
-        System.out.println("\n🔍 Test SAX avec validation XSD...");
+        System.out.println("\n Test SAX avec validation XSD...");
         
         System.gc();
         
@@ -111,13 +111,13 @@ public class PerformanceBenchmark {
             long tempsExecution = tempsFin - tempsDebut;
             long memoireUtilisee = memoireApres - memoireAvant;
             
-            System.out.println("   ✅ Réussi");
-            System.out.println("   📊 " + handler.nbImages + " images, " + handler.nbLabels + " labels");
+            System.out.println(" Réussi");
+            System.out.println("   " + handler.nbImages + " images, " + handler.nbLabels + " labels");
             
             return new ResultatTest("SAX + XSD", tempsExecution, memoireUtilisee, true);
             
         } catch (Exception e) {
-            System.out.println("   ❌ Erreur : " + e.getMessage());
+            System.out.println("  Erreur : " + e.getMessage());
             return new ResultatTest("SAX + XSD", 0, 0, false);
         }
     }
@@ -127,7 +127,7 @@ public class PerformanceBenchmark {
     // ========================================================================
     
     public static ResultatTest testerDOM_DTD(String fichierXML) {
-        System.out.println("\n🔍 Test DOM avec validation DTD...");
+        System.out.println("\n Test DOM avec validation DTD...");
         
         System.gc();
         
@@ -152,13 +152,13 @@ public class PerformanceBenchmark {
             long tempsExecution = tempsFin - tempsDebut;
             long memoireUtilisee = memoireApres - memoireAvant;
             
-            System.out.println("   ✅ Réussi");
-            System.out.println("   📊 " + images.getLength() + " images, " + labels.getLength() + " labels");
+            System.out.println("    Réussi");
+            System.out.println("     " + images.getLength() + " images, " + labels.getLength() + " labels");
             
             return new ResultatTest("DOM + DTD", tempsExecution, memoireUtilisee, true);
             
         } catch (Exception e) {
-            System.out.println("   ❌ Erreur : " + e.getMessage());
+            System.out.println("     Erreur : " + e.getMessage());
             return new ResultatTest("DOM + DTD", 0, 0, false);
         }
     }
@@ -168,7 +168,7 @@ public class PerformanceBenchmark {
     // ========================================================================
     
     public static ResultatTest testerDOM_XSD(String fichierXML) {
-        System.out.println("\n🔍 Test DOM avec validation XSD...");
+        System.out.println("\n  Test DOM avec validation XSD...");
         
         System.gc();
         
@@ -198,13 +198,13 @@ public class PerformanceBenchmark {
             long tempsExecution = tempsFin - tempsDebut;
             long memoireUtilisee = memoireApres - memoireAvant;
             
-            System.out.println("   ✅ Réussi");
-            System.out.println("   📊 " + images.getLength() + " images, " + labels.getLength() + " labels");
+            System.out.println("     Réussi");
+            System.out.println("     " + images.getLength() + " images, " + labels.getLength() + " labels");
             
             return new ResultatTest("DOM + XSD", tempsExecution, memoireUtilisee, true);
             
         } catch (Exception e) {
-            System.out.println("   ❌ Erreur : " + e.getMessage());
+            System.out.println("     Erreur : " + e.getMessage());
             return new ResultatTest("DOM + XSD", 0, 0, false);
         }
     }
@@ -234,7 +234,7 @@ public class PerformanceBenchmark {
     public static void afficherComparaison(List<ResultatTest> resultats) {
         System.out.println("\n");
         System.out.println("=".repeat(80));
-        System.out.println("📊 TABLEAU COMPARATIF DES PERFORMANCES");
+        System.out.println("  TABLEAU COMPARATIF DES PERFORMANCES");
         System.out.println("=".repeat(80));
         System.out.println();
         
@@ -246,10 +246,10 @@ public class PerformanceBenchmark {
             if (r.succes) {
                 double memoireMB = r.memoire / (1024.0 * 1024.0);
                 System.out.printf("%-15s | %15d | %20.2f | %10s\n", 
-                    r.nom, r.temps, memoireMB, "✅");
+                    r.nom, r.temps, memoireMB, " ");
             } else {
                 System.out.printf("%-15s | %15s | %20s | %10s\n", 
-                    r.nom, "N/A", "N/A", "❌ ÉCHEC");
+                    r.nom, "N/A", "N/A", "  ÉCHEC");
             }
         }
         
@@ -260,7 +260,7 @@ public class PerformanceBenchmark {
         // ANALYSE COMPARATIVE
         // ====================================================================
         
-        System.out.println("📈 ANALYSE COMPARATIVE :");
+        System.out.println("  ANALYSE COMPARATIVE :");
         System.out.println("-".repeat(80));
         
         // Trouver les résultats SAX et DOM avec DTD
@@ -273,24 +273,24 @@ public class PerformanceBenchmark {
             .findFirst().orElse(null);
         
         if (saxDTD != null && domDTD != null) {
-            System.out.println("\n🔹 SAX vs DOM (avec DTD) :");
+            System.out.println("\n  SAX vs DOM (avec DTD) :");
             
             // Comparaison temps
             if (saxDTD.temps < domDTD.temps) {
                 double ratio = (double) domDTD.temps / saxDTD.temps;
-                System.out.printf("   ⚡ SAX est %.2fx plus RAPIDE que DOM\n", ratio);
+                System.out.printf("     SAX est %.2fx plus RAPIDE que DOM\n", ratio);
             } else {
                 double ratio = (double) saxDTD.temps / domDTD.temps;
-                System.out.printf("   ⚡ DOM est %.2fx plus RAPIDE que SAX\n", ratio);
+                System.out.printf("     DOM est %.2fx plus RAPIDE que SAX\n", ratio);
             }
             
             // Comparaison mémoire
             if (saxDTD.memoire < domDTD.memoire) {
                 double ratio = (double) domDTD.memoire / saxDTD.memoire;
-                System.out.printf("   💾 SAX utilise %.2fx MOINS de mémoire que DOM\n", ratio);
+                System.out.printf("     SAX utilise %.2fx MOINS de mémoire que DOM\n", ratio);
             } else {
                 double ratio = (double) saxDTD.memoire / domDTD.memoire;
-                System.out.printf("   💾 DOM utilise %.2fx MOINS de mémoire que SAX\n", ratio);
+                System.out.printf("     DOM utilise %.2fx MOINS de mémoire que SAX\n", ratio);
             }
         }
         
@@ -300,14 +300,14 @@ public class PerformanceBenchmark {
             .findFirst().orElse(null);
         
         if (saxDTD != null && saxXSD != null) {
-            System.out.println("\n🔹 DTD vs XSD (avec SAX) :");
+            System.out.println("\n  DTD vs XSD (avec SAX) :");
             
             if (saxDTD.temps < saxXSD.temps) {
                 double diff = ((double)(saxXSD.temps - saxDTD.temps) / saxDTD.temps) * 100;
-                System.out.printf("   📄 DTD est %.1f%% plus rapide que XSD\n", diff);
+                System.out.printf("     DTD est %.1f%% plus rapide que XSD\n", diff);
             } else {
                 double diff = ((double)(saxDTD.temps - saxXSD.temps) / saxXSD.temps) * 100;
-                System.out.printf("   📄 XSD est %.1f%% plus rapide que DTD\n", diff);
+                System.out.printf("     XSD est %.1f%% plus rapide que DTD\n", diff);
             }
         }
         
@@ -329,7 +329,7 @@ public class PerformanceBenchmark {
         String fichierDTD = "../../Etape1_Conversion/padchest_images_dtd.xml";
         String fichierXSD = "../../Etape1_Conversion/padchest_images_xsd.xml";
         
-        System.out.println("\n📁 Fichiers à tester :");
+        System.out.println("\n  Fichiers à tester :");
         System.out.println("   - " + fichierDTD);
         System.out.println("   - " + fichierXSD);
         
@@ -340,7 +340,7 @@ public class PerformanceBenchmark {
         // ====================================================================
         
         System.out.println("\n" + "=".repeat(80));
-        System.out.println("🚀 LANCEMENT DES TESTS");
+        System.out.println("  LANCEMENT DES TESTS");
         System.out.println("=".repeat(80));
         
         // Test 1 : SAX + DTD
@@ -361,7 +361,7 @@ public class PerformanceBenchmark {
         
         afficherComparaison(resultats);
         
-        System.out.println("\n💡 RECOMMANDATIONS :");
+        System.out.println("\n RECOMMANDATIONS :");
         System.out.println("-".repeat(80));
         System.out.println("• SAX : Idéal pour les GROS fichiers (économe en mémoire)");
         System.out.println("• DOM : Idéal pour la MANIPULATION (navigation dans l'arbre)");

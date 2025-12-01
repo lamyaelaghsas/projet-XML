@@ -108,13 +108,7 @@ order by $count descending
 
 ---
 
-## ✅ CHECKLIST AVANT PRÉSENTATION
 
-- [ ] BaseX installé
-- [ ] Base de données `padchest` créée
-- [ ] Requête 1 fonctionne (affiche un nombre)
-- [ ] Requête 2 fonctionne (affiche top 10)
-- [ ] Screenshots des résultats pris
 
 ---
 
@@ -133,5 +127,3 @@ order by $count descending
 > XQuery interroge XML pour extraire des données."
 
 ---
-
-Bon courage ! 🚀

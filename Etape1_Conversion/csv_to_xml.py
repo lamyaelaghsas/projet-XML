@@ -26,6 +26,7 @@ NOMBRE_LIGNES_TEST = None
 # FONCTIONS
 # ============================================================
 
+# Nettoie une chaîne représentant une liste
 def nettoyer_liste(chaine):
     if not chaine or chaine.strip() == "[]":
         return []
@@ -34,6 +35,7 @@ def nettoyer_liste(chaine):
     except:
         return []
 
+# Échappe les caractères spéciaux pour XML
 def echapper_xml(texte):
     if not texte:
         return ""
@@ -45,6 +47,7 @@ def echapper_xml(texte):
     texte = texte.replace("'", "&apos;")
     return texte
 
+# Écrit une image dans le fichier XML
 def ecrire_image(xml_file, ligne):
     """
     Écrit une image dans le fichier XML
@@ -109,6 +112,7 @@ def ecrire_image(xml_file, ligne):
     
     xml_file.write(f'  </image>\n')
 
+# Création de padchest_images_dtd.xml
 def generer_xml_avec_dtd():
     """
     Génère le XML avec référence au DTD (version minimum)
@@ -148,6 +152,7 @@ def generer_xml_avec_dtd():
     print(f"✓ XML avec DTD créé : {compteur} images")
     print()
 
+# Création de padchest_images_xsd.xml
 def generer_xml_avec_xsd():
     """
     Génère le XML avec référence au XSD (version pro)

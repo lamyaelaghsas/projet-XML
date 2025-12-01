@@ -11,7 +11,6 @@ import java.util.*;
  * ============================================================================
  * PARSER DOM POUR PADCHEST
  * ============================================================================
- * Basé sur les exemples du cours Leçon 4 : SAX et DOM (slides 33-43)
  * 
  * Ce parser calcule :
  * 1. Nombre d'images avec localisation "loc right"
@@ -31,17 +30,17 @@ public class PadChestParserDOM {
         
         try {
             // ================================================================
-            // ÉTAPE 1 : Créer une DocumentBuilderFactory (slide 33 du cours)
+            // ÉTAPE 1 : Créer une DocumentBuilderFactory - créé une instance 
             // ================================================================
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             
             // ================================================================
-            // ÉTAPE 2 : Configurer la factory
+            // ÉTAPE 2 : Configurer la factory (l'instance créée)
+            //C'est le point d'entrée pour configurer comment vous voulez parser le XML avant de créer le vrai parseur (builder).
             // ================================================================
             factory.setValidating(true);  // Active la validation DTD
             factory.setIgnoringElementContentWhitespace(true);  // TRÈS IMPORTANT !
             // Cette ligne ignore les espaces et retours à la ligne entre balises
-            // (problème expliqué slides 41-43)
             
             System.out.println("Configuration du parser :");
             System.out.println("  - Validation : OUI (DTD)");
@@ -49,12 +48,12 @@ public class PadChestParserDOM {
             System.out.println();
             
             // ================================================================
-            // ÉTAPE 3 : Créer le DocumentBuilder (slide 33 du cours)
+            // ÉTAPE 3 : Créer le DocumentBuilder  crée le vrai parseur DOM qui va charger et analyser le fichier XM
             // ================================================================
             DocumentBuilder builder = factory.newDocumentBuilder();
             
             // ================================================================
-            // ÉTAPE 4 : Définir un ErrorHandler (slide 34 du cours)
+            // ÉTAPE 4 : Définir un ErrorHandler 
             // ================================================================
             builder.setErrorHandler(new ErrorHandler() {
                 @Override
@@ -76,23 +75,27 @@ public class PadChestParserDOM {
             });
             
             // ================================================================
-            // ÉTAPE 5 : Parser le fichier XML (slide 33 du cours)
+            // ÉTAPE 5 : Parser le fichier XML 
             // ================================================================
             System.out.println("Chargement du fichier XML...");
             long startTime = System.currentTimeMillis();
             
-            File fileXML = new File("../../Etape1_Conversion/padchest_images_dtd.xml");
-            Document document = builder.parse(fileXML);
-            
+            // === Chemin intégré du fichier XML ===
+            String xmlPath = "../../Etape1_Conversion/padchest_images_dtd.xml";
+            System.out.println("Fichier analysé : " + xmlPath);
+
+            // === Chargement du document ===
+            Document document = builder.parse(new File(xmlPath));
+
             long endTime = System.currentTimeMillis();
             System.out.println("Document chargé en " + (endTime - startTime) + " ms");
             
             // ================================================================
-            // ÉTAPE 6 : Normaliser le document (slide 33 du cours)
+            // ÉTAPE 6 : Normaliser/Nettoyer le document XML
             // ================================================================
             document.getDocumentElement().normalize();
             
-            // Afficher l'élément racine (slide 33 du cours)
+            // Afficher l'élément racine
             Element root = document.getDocumentElement();
             System.out.println("Élément racine : <" + root.getNodeName() + ">");
             System.out.println();
@@ -122,7 +125,7 @@ public class PadChestParserDOM {
         // Récupérer TOUS les éléments <image>
         // ====================================================================
         // getElementsByTagName() retourne TOUS les éléments avec ce nom
-        // peu importe où ils sont dans l'arbre (slide 37 du cours)
+        // peu importe où ils sont dans l'arbre 
         
         NodeList listeImages = document.getElementsByTagName("image");
         int nbImages = listeImages.getLength();
@@ -147,7 +150,7 @@ public class PadChestParserDOM {
                 System.out.println("  Traitement de l'image " + (i + 1) + "/" + nbImages);
             }
             
-            // Vérifier que c'est bien un élément (slide 33 du cours)
+            // Vérifier que c'est bien un élément
             if (noeudImage.getNodeType() == Node.ELEMENT_NODE) {
                 Element image = (Element) noeudImage;
                 
@@ -155,11 +158,11 @@ public class PadChestParserDOM {
                 // TRAITEMENT 1 : Récupérer les localisations
                 // ============================================================
                 // getElementsByTagName() récupère tous les <localization>
-                // de cette image (slide 37 du cours)
+                // de cette image 
                 
                 NodeList localizations = image.getElementsByTagName("localization");
                 for (int j = 0; j < localizations.getLength(); j++) {
-                    // getTextContent() récupère le texte du nœud (slide 37)
+                    // getTextContent() récupère le texte du nœud 
                     String locText = localizations.item(j).getTextContent().trim();
                     
                     if (locText.contains("loc right")) {
